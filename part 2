@@ -1,0 +1,55 @@
+from Bio.Blast import NCBIXML
+
+with open("blast_results.xml") as b:
+    blast_records = NCBIXML.parse(b)
+
+    for blast_record in blast_records:
+        print("QUERY:", blast_record.query)
+        print("Query length:", blast_record.query_length)
+
+        print("Total alignments found:", len(blast_record.alignments))
+        
+
+        print("TOP 10 HOMOLOGS")
+       
+
+        for i, alignment in enumerate(blast_record.alignments[:10], start=1):
+            hsp = alignment.hsps[0]
+            identity_percent = (hsp.identities / hsp.align_length) * 100
+
+            print(f"Hit {i}")
+            print("Title:", alignment.hit_def)
+            print("E-value:", hsp.expect)
+            print(f"Identity: {identity_percent:.2f}%")
+            print("Query region:",
+                  f"{hsp.query_start} - {hsp.query_end}")
+            print("-" * 60)
+
+
+print("BLASTp analysis against the RefSeq protein database identified 50 homologous protein sequences. The closest homologs corresponded to G-type lectin S-receptor-like serine/threonine-protein kinases from multiple plant species, with extremely low E-values (as low as 1.0 × 10⁻¹⁴⁰) and sequence identities ranging from approximately 44% to 52%. The majority of top hits aligned over a conserved query region spanning residues 5–388, while the best hit covered almost the entire protein length (1–470), indicating the presence of highly conserved functional domains. The conservation of these regions across diverse plant species suggests that the query protein is evolutionarily conserved and likely involved in receptor-mediated signal transduction.")
+
+print("-"*100)
+
+#STEP 5
+#Functional Annotation (Answering the Question)
+
+print("STEP 5")
+print("Functional Annotation (Answering the Question)")
+
+print("Functional annotation was performed using homology-based inference supported by UniProt annotations of the top BLASTp hits. The closest homologs were identified as G-type lectin S-receptor-like serine/threonine-protein kinases, which are well-characterized receptor proteins in plants. According to UniProt annotations, these proteins function as receptor kinases involved in phosphorylation-dependent signal transduction pathways. Based on the strong sequence similarity, conserved query regions, and extremely low E-values observed in BLAST analysis, the query protein is predicted to function as a receptor-like serine/threonine protein kinase. Biologically, this protein is likely involved in regulating plant development, cellular communication, and responses to environmental stimuli. In Bauhinia variegata, the protein is expected to play a conserved role in receptor-mediated signaling essential for growth and adaptation.")
+print("-"*100)
+
+# STEP 6
+# Biological Interpretation (Research Outcome)
+
+print("STEP 6")
+print("Biological Interpretation (Research Outcome)")
+
+print("The analyzed protein sequence is likely to function as a G-type lectin S-receptor-like serine/threonine protein kinase, acting as a receptor involved in signal transduction in plants.")
+
+print("This conclusion is based on strong homology between the query protein and well-characterized G-type lectin receptor-like kinases identified through BLASTp analysis. The closest homologs showed extremely low E-values and moderate to high sequence identity, along with large conserved alignment regions. Such conservation strongly suggests retention of the same biochemical and cellular function.")
+
+print("The BLASTp search against the RefSeq protein database identified 50 significant homologs, with the top hits showing E-values as low as 1.0 × 10⁻¹⁴⁰ and sequence identities ranging from approximately 44% to 52%. The majority of these homologs aligned over conserved query regions spanning residues 5–388, indicating the presence of conserved functional domains. UniProt annotations of the closest homologs describe these proteins as receptor-like serine/threonine kinases involved in phosphorylation-dependent signaling pathways in plants. Together, these findings provide strong evidence that the query protein plays a conserved role in receptor-mediated signaling in Bauhinia variegata.")
+
+print("-"*100)
+

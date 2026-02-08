@@ -1,0 +1,2258 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5303555</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>481</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5303555</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>481</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_054776640.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054776640</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>1.00863e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>675</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>313</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>531</Hsp_align-len>
+      <Hsp_qseq>MKEPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL----GDHTDSDRDLR------VIVTVPLLVGIVIVTACACLLRRCAKHSGGKNH---------GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNE------------------------------------------AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS</Hsp_qseq>
+      <Hsp_hseq>MKLVRNPGTGEKPTVLTSWKSPSDPSTGSFSASLERLDAPEVVVYN---GSKPYWRSGPWNGREFLGVP--FSSNIDRFSLKA-NNGTYSISFDLANP-SYFGVFKLSSTGKWVITGWSNKIAVGRWRIQHNECDVYGQCGEFGYCNPQSAPICSCLDGFEPKNADEWNKQNWKNGCIRKEPLQCDK---RIKNGSEDRFNKLEKVKTPDFVQRLQVPDEENCRKQCLQNCSCLAYAYDLAIRCMSWSGKLIDIRTFAPGGFDLYIRPANSELEKPAENVTDKMGDKRRSNWKVIVIAISLIMGATILAACSYFLWKIVARLKGKTNQNGLSEGMIGDSKQEKLEELPLFEFEKLAIATNNFHNSNRLGQGGFGPVYKGELQDSQVIAVKRLSRGSGQGLEEFMNEVRVISKLQHRNLVRLLGCCIEGDEKMLVYEYMPNKSLDAVLFGRKIWTEDNIKSLIDPEI-YDSSFHMEILRCIQVGLLCVQELAKDRPSMAFVYSMLNSEIVNLPSPTQPAFTKRQYTMSEESS</Hsp_hseq>
+      <Hsp_midline>MK   N    EK   LTSWKS SDPS G+FS SLE  + PE+ V+N     +PYWRSGPWNG  FLG     S N+  F +++ NNGT+ +++  A    Y+G+  L+  G   +T + NK  +  W +Q+++CD+YG CG FG CN Q++PIC+CL GFEP+N +EWNKQNW +GC+R+ PL+C+K     ++G ED F KL+K K PDF+++     E+ CR QCLQNCSC+AYAYD  I CM WSG L DI +F+ G  +LYIR ANSEL     + TD   D R      +++ + L++G  I+ AC+  L +      GK +         G+ K  +L++LPL + E+LA ATNNFH++N LG+GGFGPVYKG L+  Q IAVKRLS  SGQGLEEFMNE                                            + W E  I +LIDPE+ Y      +I+RCI +GLLCVQELA+ RPSM+ V  ML SEI NLP P +  F ++Q      SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_019426416.1|</Hit_id>
+  <Hit_def>PREDICTED: G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Lupinus angustifolius]</Hit_def>
+  <Hit_accession>XP_019426416</Hit_accession>
+  <Hit_len>828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>3.82325e-130</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACA----CLLRRCAKHSGGKNHGNQKHVE------LDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGERIRFISRKSDSDVSTGEFSATIERLDAPEVFFW--INGTRPYWRTGPWNGRIFIGTPMMSTGYLYGWSVGYEGNDTVYLTYSFAEP-SKFGILSLNPQGNLRLVRFYNQIEVLNMVLENSKCDVYGLCGAFGSCNLNNSPICSCLSGYEPRNLEEWNKQNWTSGCLRKEPLKCEKLTKNRSEVGQEDHFLKLGMMKVPDFAERLDV-EESQCGTQCLKNCSCLAYAYDAGIGCMYWSGDLIDLQRFSSAGVDLFIRLAHSELENHTDRQRKKRLVIALAVATATITLAICAFLAICVYRSRKKTAEHSEIQSQRMIEVPKPDKLDELPLYDFEVLETATNNFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT ++++  S KS SD S G FS ++E  + PE++ W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N T YLTY FA+    +G++ LNPQG L +  + N+ E+++  ++NS CD+YG CGAFGSCN   SPIC+CL G+EPRN+ EWNKQNWTSGC+R+ PL+CEK  KN SE G+ED FLKL   KVPDF E+     E +C +QCL+NCSC+AYAYD  I CM+WSG+L D+  FS   ++L+IR+A+SEL +HTD  R  R+++ + +    + +  CA    C+ R   K +      +Q+ +E      LD+LPL   E L TATNNFH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>5.53178e-19</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>656</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>LEELATATNNFHSANMLGEGGF-GPVY--KGVLEGEQEI---AVKRLSNASGQGLEEFMNE---------AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS----------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>LARIYKGEDEINTRRVVGTYGYMSPEYAMEGLFSEKSDIYSFGILLLEIASGKRNSSFRNDEESLSLLGFAWKLWNENNIKSLIDPEISASGFEK-QILRCIHIAFLCVQEFAKDRPFMTTVVLMLNSENSNLPHPKQVAFVQKQNPSSLKSSQAKENHCNSNNYVTLTDIHGR</Hsp_hseq>
+      <Hsp_midline>L  +    +  ++  ++G  G+  P Y  +G+   + +I    +  L  ASG+    F N+         AW+ WNE  I +LIDPE+S S  ++ QI+RCIHI  LCVQE A+ RP M+TV+ ML SE  NLP PK+V F+QKQ      SS          N VT T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_061368816.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061368816</Hit_accession>
+  <Hit_len>828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>8.63044e-130</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGM-VSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-----RRCAK-------------HSGGKNHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNQITGEKVKVTSWKSPSDPATGNFSGSLERLSVPEVFIWN---QTQPFWRSGPWNGQVFIGLAKMYTSAYLNGFNIEREENGTVQITYSLPNN-SFFGTIVLSSDGKLIYTAWINRQLVGKRVIQESNCDVYGFCGTYGSCDSRNSPICSCLRGFEPKNVDEWNRQNWTSGCVRRTELQCKRVRKGSEAGKEDGFLKLEMSKVPDFADQ-TTVSDETCRTDCLNNCSCKAYAHDPGIGCMSWSEKLIDIQRFQSGGVDLHIRLAYSEL--DGERERNKKVIILVTVIVGTLIVSTCAYFLWAWTSKRSARRMLRNTRETHPENRTGGLSEELKRVKNFQDLPVFDFRYISTATDNFNSSNKLGQGGFGSVYKGELQDGQEVAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT +KV++TSWKS SDP+ GNFS SLE  ++PE+++WN   Q QP+WRSGPWNG +F+G   M  S  L+GF+IE E NGT  +TY       ++G IVL+  G L  T + N++ +    +Q S+CD+YGFCG +GSC+S+ SPIC+CLRGFEP+NV+EWN+QNWTSGCVRRT L+C++ +  SE+GKED FLKL+ +KVPDF +Q +T S++ CR+ CL NCSC AYA+DP I CM WS  L DI  F  G ++L+IR+A SEL    + +R+ +VI+ V ++VG +IV+ CA  L     +R A+              +GG +   ++     DLP+     ++TAT+NF+S+N LG+GGFG VYKG L+  QE+AVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>7.89386e-20</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>723</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>FMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>LLGYAWKLWNEDEIISLIDPNISNPDHGND-ILRCIHIGLLCVQELARERPTMATVVSMLKSEIVNFPPPQQPAFIQKQLVLSGESSQPSHRSSSINDVTVTNLQGR</Hsp_hseq>
+      <Hsp_midline> +  AW+ WNE  I++LIDP +S      D I+RCIHIGLLCVQELAR+RP+M+TV+ ML SEI N PPP++  F+QKQ V    SS         N VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_054778565.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X3 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054778565</Hit_accession>
+  <Hit_len>826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>3.83491e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDP-FISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCA---KHSGGKNHGNQKH-------VELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SINKRTGEKVKLTSWKSLSDPSIGNYSASIERPDAPDVFLW--FNGTRPYARTGPWNGKIFIGSPTMSTGYLYGWSVGEEDGGTIYVTFNSANDTTF-AVLGLNPQGQLWTVWWNNKKEVLRKVINGTYCDLYGICGAFGSCNSQSSPICSCLNGYVPKNLEEWNTQNWTSGCVRKKPFQCEGIANRSEMEEKDGFVRLENMKVPDFLER-STATEDNCRTQCLDNC-CVAYAYDSNGIGCMHWSGDLIDIQRFSSGGVDLYIRVPLSELEKHS---QKRTIIIAVAVTIGIITLTACAYLLWKLLTVNKYAGGIDSHNQSQRMIRQDEVNMDELPLFDFEELLNATNNFHSSNMLGRGGFGSVYKGQLKDGQQIAIKRLSKASRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK T +KV+LTSWKS SDPSIGN+S S+E P+ P++++W  +N  +PY R+GPWNG +F+G   M +G L G+ +  E+ GT Y+T+  A    +  ++ LNPQG L    + NKKE++   +  + CD+YG CGAFGSCNSQ+SPIC+CL G+ P+N+ EWN QNWTSGCVR+ P +CE   N SE  ++D F++L+  KVPDFLE+ ST +ED CR+QCL NC C+AYAYD   I CMHWSG+L DI  FS G ++LYIRV  SEL  H+   +   +I+ V + +GI+ +TACA LL +     K++GG +  NQ         V +D+LPL   EEL  ATNNFHS+NMLG GGFG VYKG L+  Q+IA+KRLS AS QG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.69168e-14</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>696</Hsp_hit-from>
+      <Hsp_hit-to>826</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLMLEIVSGRSN---SRLNNVEGS--QTLLGYVWKLWKEDNLVSFIDLEMQHQGSCED-ILRCVHIGLLCVQELVKERPTMANVVSMLSSEIANLPLPRQPAYILNETGFNFEPASEAQSSHSANFVSITSITGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G       RL+N  G   +  +   W+ W E  +++ ID EM +     D I+RC+HIGLLCVQEL ++RP+M+ V+ ML SEI NLP P++  ++  +         + +   S+N V+ T I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_061371244.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330, partial [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061371244</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>4.18972e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>537</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGL----IVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDS---ESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSD-RDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSG-----------GKNHGNQK------HVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGEKVELTSWKSLSDPSIGSFSASVERLKIPEVFIWN---RTQPYWRSGPWNGQVFLGIPAMGTSYLSGFQVQDDGNGTIDVSF------TVYGMELMMYTLNSQGQLVENHWYDEQWLVTWTSRQSDCDVYGICGAFASCSSQGSPICSCLKGFEPRNKEDWNRQNWTSGCVKSTPLQCERTNNQNKSVDSNKVDGFLTLQMIKVPDF-AQGSSVTQDACRSGCLENCSCIAYAYDNAIGCMSWNGDLIDIQQFPSGGTDLYIRVAYTELGTPREGKGRNKKVIIAVTVIIGTFIIFTCAYVIWRRKKKKSGFIRFNKGITSESQEHANDKVIGELSQAKLQELLQFSFEKLATATNYFHSSNKLGQGGFGPVYKGKLQDGKEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT +KV+LTSWKS SDPSIG+FS S+E   IPE+++WN   + QPYWRSGPWNG +FLG   M +  LSGF ++ + NGT  +++        YG+      LN QG L    + +++ +++W  + SDCD+YG CGAF SC+SQ SPIC+CL+GFEPRN  +WN+QNWTSGCV+ TPL+CE+  N +   +S K D FL LQ  KVPDF  Q S+ ++D CRS CL+NCSCIAYAYD  I CM W+G+L DI  F  G  +LYIRVA +ELG   +   R+ +VI+ V +++G  I+  CA ++ RR  K SG            + H N K        +L +L     E+LATATN FHS+N LG+GGFGPVYKG L+  +EIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>3.27909e-14</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>809</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>FMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRS---------SSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FLGLVWIQWKEGNVLSLVDHIYDPSL--ENHIMRCIHIGLLCVQEFATDRPNMAAVISMLNSEIVDLPPPRQPAFIMWQNMLSSLSSDESLRLHSINNVSITDIHGR</Hsp_hseq>
+      <Hsp_midline>F+   W  W EG +++L+D     S+   + IMRCIHIGLLCVQE A  RP+M+ V+ ML SEI +LPPP++  F+  Q +             S N+V+ T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_019426415.1|</Hit_id>
+  <Hit_def>PREDICTED: G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 isoform X1 [Lupinus angustifolius]</Hit_def>
+  <Hit_accession>XP_019426415</Hit_accession>
+  <Hit_len>831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>4.95283e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELG---DHTDSDRDLRVIVTVPLLVGIVIVTACA----CLLRRCAKHSGGKNHGNQKHVE------LDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGERIRFISRKSDSDVSTGEFSATIERLDAPEVFFW--INGTRPYWRTGPWNGRIFIGTPMMSTGYLYGWSVGYEGNDTVYLTYSFAEP-SKFGILSLNPQGNLRLVRFYNQIEVLNMVLENSKCDVYGLCGAFGSCNLNNSPICSCLSGYEPRNLEEWNKQNWTSGCLRKEPLKCEKLTKNRSEVGQEDHFLKLGMMKVPDFAERLDV-EESQCGTQCLKNCSCLAYAYDAGIGCMYWSGDLIDLQRFSSAGVDLFIRLAHSELGNAENHTDRQRKKRLVIALAVATATITLAICAFLAICVYRSRKKTAEHSEIQSQRMIEVPKPDKLDELPLYDFEVLETATNNFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT ++++  S KS SD S G FS ++E  + PE++ W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N T YLTY FA+    +G++ LNPQG L +  + N+ E+++  ++NS CD+YG CGAFGSCN   SPIC+CL G+EPRN+ EWNKQNWTSGC+R+ PL+CEK  KN SE G+ED FLKL   KVPDF E+     E +C +QCL+NCSC+AYAYD  I CM+WSG+L D+  FS   ++L+IR+A+SELG   +HTD  R  R+++ + +    + +  CA    C+ R   K +      +Q+ +E      LD+LPL   E L TATNNFH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>6.1232e-19</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>831</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>LEELATATNNFHSANMLGEGGF-GPVY--KGVLEGEQEI---AVKRLSNASGQGLEEFMNE---------AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS----------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>LARIYKGEDEINTRRVVGTYGYMSPEYAMEGLFSEKSDIYSFGILLLEIASGKRNSSFRNDEESLSLLGFAWKLWNENNIKSLIDPEISASGFEK-QILRCIHIAFLCVQEFAKDRPFMTTVVLMLNSENSNLPHPKQVAFVQKQNPSSLKSSQAKENHCNSNNYVTLTDIHGR</Hsp_hseq>
+      <Hsp_midline>L  +    +  ++  ++G  G+  P Y  +G+   + +I    +  L  ASG+    F N+         AW+ WNE  I +LIDPE+S S  ++ QI+RCIHI  LCVQE A+ RP M+TV+ ML SE  NLP PK+V F+QKQ      SS          N VT T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_054778564.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 isoform X2 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054778564</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>1.02961e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDP-FISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCA---KHSGGKNHGNQKH-------VELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SINKRTGEKVKLTSWKSLSDPSIGNYSASIERPDAPDVFLW--FNGTRPYARTGPWNGKIFIGSPTMSTGYLYGWSVGEEDGGTIYVTFNSANDTTF-AVLGLNPQGQLWTVWWNNKKEVLRKVINGTYCDLYGICGAFGSCNSQSSPICSCLNGYVPKNLEEWNTQNWTSGCVRKKPFQCEGIANRSEMEEKDGFVRLENMKVPDFLER-STATEDNCRTQCLDNC-CVAYAYDSNGIGCMHWSGDLIDIQRFSSGGVDLYIRVPLSELEKHS---QKRTIIIAVAVTIGIITLTACAYLLWKLLTVNKYAGGIDSHNQSQRMIRQDEVNMDELPLFDFEELLNATNNFHSSNMLGRGGFGSVYKGQLKDGQQIAIKRLSKASRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK T +KV+LTSWKS SDPSIGN+S S+E P+ P++++W  +N  +PY R+GPWNG +F+G   M +G L G+ +  E+ GT Y+T+  A    +  ++ LNPQG L    + NKKE++   +  + CD+YG CGAFGSCNSQ+SPIC+CL G+ P+N+ EWN QNWTSGCVR+ P +CE   N SE  ++D F++L+  KVPDFLE+ ST +ED CR+QCL NC C+AYAYD   I CMHWSG+L DI  FS G ++LYIRV  SEL  H+   +   +I+ V + +GI+ +TACA LL +     K++GG +  NQ         V +D+LPL   EEL  ATNNFHS+NMLG GGFG VYKG L+  Q+IA+KRLS AS QG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.49425e-13</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>744</Hsp_hit-from>
+      <Hsp_hit-to>846</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>QVWKLWKEDNLVSFIDLEMQHQGSCED-ILRCVHIGLLCVQELVKERPTMANVVSMLSSEIANLPLPRQPAYILNETGFNFEPASEAQSSHSANFVSITSITGR</Hsp_hseq>
+      <Hsp_midline>+ W+ W E  +++ ID EM +     D I+RC+HIGLLCVQEL ++RP+M+ V+ ML SEI NLP P++  ++  +         + +   S+N V+ T I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_054778563.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054778563</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>1.23531e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDP-FISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCA---KHSGGKNHGNQKH-------VELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SINKRTGEKVKLTSWKSLSDPSIGNYSASIERPDAPDVFLW--FNGTRPYARTGPWNGKIFIGSPTMSTGYLYGWSVGEEDGGTIYVTFNSANDTTF-AVLGLNPQGQLWTVWWNNKKEVLRKVINGTYCDLYGICGAFGSCNSQSSPICSCLNGYVPKNLEEWNTQNWTSGCVRKKPFQCEGIANRSEMEEKDGFVRLENMKVPDFLER-STATEDNCRTQCLDNC-CVAYAYDSNGIGCMHWSGDLIDIQRFSSGGVDLYIRVPLSELEKHS---QKRTIIIAVAVTIGIITLTACAYLLWKLLTVNKYAGGIDSHNQSQRMIRQDEVNMDELPLFDFEELLNATNNFHSSNMLGRGGFGSVYKGQLKDGQQIAIKRLSKASRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK T +KV+LTSWKS SDPSIGN+S S+E P+ P++++W  +N  +PY R+GPWNG +F+G   M +G L G+ +  E+ GT Y+T+  A    +  ++ LNPQG L    + NKKE++   +  + CD+YG CGAFGSCNSQ+SPIC+CL G+ P+N+ EWN QNWTSGCVR+ P +CE   N SE  ++D F++L+  KVPDFLE+ ST +ED CR+QCL NC C+AYAYD   I CMHWSG+L DI  FS G ++LYIRV  SEL  H+   +   +I+ V + +GI+ +TACA LL +     K++GG +  NQ         V +D+LPL   EEL  ATNNFHS+NMLG GGFG VYKG L+  Q+IA+KRLS AS QG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.71342e-13</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>QVWKLWKEDNLVSFIDLEMQHQGSCED-ILRCVHIGLLCVQELVKERPTMANVVSMLSSEIANLPLPRQPAYILNETGFNFEPASEAQSSHSANFVSITSITGR</Hsp_hseq>
+      <Hsp_midline>+ W+ W E  +++ ID EM +     D I+RC+HIGLLCVQEL ++RP+M+ V+ ML SEI NLP P++  ++  +         + +   S+N V+ T I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_027351543.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027351543</Hit_accession>
+  <Hit_len>831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>2.83657e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>559</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIV-TVPLLVGIVIVTACAC-------LLRRCAKH----SGGKNHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGEKIRFISRKSASDPSTGYFSATLERLDAPEVFLW--INETRPYWRTGPWNGRIFIGTPLMSTGYLYGWNVGYEGNETVYLTYSFADPSAF-GILTLNEQGKIKLERYYNGKHVLTLVLQNSDCDVYGTCGAFGSCNVQNSPICSCLSGYEPRNPEEWSRKNWTSGCVIKKPLKCERLKNGSADGQEDQFLKLASMKVPDFADRLDV-EEGQCGIQCLKNCSCLAYAYDAGIGCLYWSGHLIDLQQFSSGGVDLHIRLAHSEFQSSIAQNHTSKRRDKKLVIGIVTMAIGMIVLAICAYVTIRRYHLRKKTAKHYPESRSQRVSEVQKQVKLDELPLFDFEVVANATNYFHLANKLGKGGFGPVYKGLLPDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT +K++  S KS SDPS G FS +LE  + PE+++W   N+ +PYWR+GPWNG +F+G   M +G L G+++  E N T YLTY FA    + G++ LN QG +++  Y N K +++  +QNSDCD+YG CGAFGSCN Q SPIC+CL G+EPRN  EW+++NWTSGCV + PL+CE+ KN S  G+ED+FLKL   KVPDF ++     E +C  QCL+NCSC+AYAYD  I C++WSG+L D+  FS G ++L+IR+A+SE       +HT   RD ++++  V + +G++++  CA        L ++ AKH       +    QK V+LD+LPL   E +A ATN FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.82493e-22</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>730</Hsp_hit-from>
+      <Hsp_hit-to>831</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEDNIRSLIDPEILASHSE-DQILRCIHIAFLCVQEVAKTRPTMTTVVSMLNSEISRLPPPKQVAFVQKQYSSSLESSSQENQGNSNNNVTLTEIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I +LIDPE+  S  + DQI+RCIHI  LCVQE+A+ RP+M+TV+ ML SEI  LPPPK+V F+QKQ         Q    +S+N+VT TEIQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_054795175.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054795175</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>7.19114e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGM-VSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNHGN--------QKHVE------LDDLPLLKLEEL--------ATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNQKTGEKLKVTSWKSPSDPSIGTFSSGLERPSTPEVFIWN---QTQPYWRSGPWNGQVFIGLSKMYTSSYLNGFDVGREENGSVHITYSLPNG-SFFGTIVLSSEGKLVLTTWMNKHKVGMRTVQDSICDMYGLCGTFGSCDPRNSPICSCLRGFEPRNAEEWNRRNWTSGCMRRASLRCGKVKNGRDTDKDDGFLKLPMTKVPDFAEKSYG-SEEMCRIQCLNNCNCTAYAYDAAIGCMSWNGNLIDVVRFSRGGVDLYIREAYSEL---EREKKVLKVVIIVTVAVGVIIIVAAYIVWWWAARHFARRKGNNGALTLEIEESHLKNHRANLIEDLKIAKLEELPLFDFGIIATATNNFSFANKLGRGGFGTVYKGELRDGQEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+ T +K+++TSWKS SDPSIG FS  LE P+ PE+++WN   Q QPYWRSGPWNG +F+G   M  S  L+GF +  E NG+ ++TY    G  ++G IVL+ +G L +T + NK ++    VQ+S CD+YG CG FGSC+ + SPIC+CLRGFEPRN  EWN++NWTSGC+RR  L C K KN  ++ K+D FLKL  TKVPDF E+S   SE+ CR QCL NC+C AYAYD  I CM W+GNL D+V FS+G ++LYIR A SEL       + L+V++ V + VG++I+ A   +    A+H   +   N        + H++      ++DL + KLEEL        ATATNNF  AN LG GGFG VYKG L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_062161170.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Alnus glutinosa]</Hit_def>
+  <Hit_accession>XP_062161170</Hit_accession>
+  <Hit_len>822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>1.05487e-127</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE-IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKND-SESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>EISTDVRTGKKVQLTSWKSPSDPSIGNFSAGIDVGNLPEFFVWN---DGSPYWRSGPWNSRIFIGVPYMDSSYLNGFRLKDDKEGTFSFTFYFSNDPLRKDFVVLNAQGNLLQKHSDNGEDWKVEWPIFETECDVYGRCGAFGSCNPQNSPICSCLRGFEPKNTEEWNRGNWTSGCVRRTPLQCERVNNNGSEGEKKDGFLKLTMMKVP-YLADWSTTLEENCSTQCLENCSCIAYAYDSGIGCMTWTGSLIDLQKFSTDGADLYVRLAYSEL----DKMKNVKVIVTITVIIGVISTGICTYLLWRWSSKQKDKHGDNVNQVKLQELPLFNLQELASATNNFHQSNKLGQGGFGPVYRGKMLDGQEIAVKRLSRASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S +  T KKVQLTSWKS SDPSIGNFS  +++ N+PE +VWN      PYWRSGPWN  +F+G   M S  L+GF ++ +  GTF  T+ F+        +VLN QG L      N ++  + W +  ++CD+YG CGAFGSCN Q SPIC+CLRGFEP+N  EWN+ NWTSGCVRRTPL+CE+  N+ SE  K+D FLKL   KVP +L   ST  E+ C +QCL+NCSCIAYAYD  I CM W+G+L D+  FS    +LY+R+A SEL    D  ++++VIVT+ +++G++    C  LL R +     K+  N   V+L +LPL  L+ELA+ATNNFH +N LG+GGFGPVY+G +   QEIAVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.40869e-15</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>730</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNAENVMALTDP-MIREPCFEMEILRCIHVGLLCVQDFAKDRPTISIVISMLKSETIDLPLPKQPAFTERQISLDAGSLNNVTVTIVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   +M L DP M    C   +I+RCIH+GLLCVQ+ A+ RP++S V+ ML SE  +LP PK+  F ++Q      S N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_028801030.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Neltuma alba]</Hit_def>
+  <Hit_accession>XP_028801030</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>2.0695e-127</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDP-FISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGGKN-HGNQKH-------VELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SINKRTGEKVKLTSWKSSSDPSIGYYTASLERPNAPDVFLW--FNGTRPYARTGPWNGRIFLGSPMMSSGWSGG----NEDDGTVYVTYNLENNADF-AVMGLNPQGQLWIAGWNNKREGSRHVLNGTYCDIYGICGAFGICSSQSSPICGCLSGYEPHNLEEWNRQNWTSGCVRKKPLQCEGFANKSEVHKQYEFVKLDNTKVPDFLER-LTATEDRCRTQCLHNCSCVAYAYDSNGIGCMHWSGDLIDIQRFSRGGVDLYIRVSLSKLEKDSPS-RTIIIAVTVP--IGIITFTTCAYFLWKLTAKYAGETDSHGQSQRMINQDEEVKMNELPLFDFEDLVTATNNFHSANKLGRGGFGSVYKGQLKDGQHIAIKRLSKASRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK T +KV+LTSWKS SDPSIG ++ SLE PN P++++W  +N  +PY R+GPWNG +FLG   M SG   G    +E++GT Y+TY       +  ++ LNPQG L +  + NK+E     +  + CDIYG CGAFG C+SQ+SPIC CL G+EP N+ EWN+QNWTSGCVR+ PL+CE   N SE  K+ EF+KL  TKVPDFLE+  T +EDRCR+QCL NCSC+AYAYD   I CMHWSG+L DI  FS+G ++LYIRV+ S+L   + S R + + VTVP  +GI+  T CA  L +  AK++G  + HG  +        V++++LPL   E+L TATNNFHSAN LG GGFG VYKG L+  Q IA+KRLS AS QG EEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_062161169.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Alnus glutinosa]</Hit_def>
+  <Hit_accession>XP_062161169</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>1.24432e-126</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE-IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKND-SESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL------RRCAKHSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>EISTDVRTGKKVQLTSWKSPSDPSIGNFSAGIDVGNLPEFFVWN---DGSPYWRSGPWNSRIFIGVPYMDSSYLNGFRLKDDKEGTFSFTFYFSNDPLRKDFVVLNAQGNLLQKHSDNGEDWKVEWPIFETECDVYGRCGAFGSCNPQNSPICSCLRGFEPKNTEEWNRGNWTSGCVRRTPLQCERVNNNGSEGEKKDGFLKLTMMKVP-YLADWSTTLEENCSTQCLENCSCIAYAYDSGIGCMTWTGSLIDLQKFSTDGADLYVRLAYSEL----DKMKNVKVIVTITVIIGVISTGICTYLLWRWSSKQKAMKFRGEDKHGDNVNQVKLQELPLFNLQELASATNNFHQSNKLGQGGFGPVYRGKMLDGQEIAVKRLSRASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S +  T KKVQLTSWKS SDPSIGNFS  +++ N+PE +VWN      PYWRSGPWN  +F+G   M S  L+GF ++ +  GTF  T+ F+        +VLN QG L      N ++  + W +  ++CD+YG CGAFGSCN Q SPIC+CLRGFEP+N  EWN+ NWTSGCVRRTPL+CE+  N+ SE  K+D FLKL   KVP +L   ST  E+ C +QCL+NCSCIAYAYD  I CM W+G+L D+  FS    +LY+R+A SEL    D  ++++VIVT+ +++G++    C  LL      ++  K  G   HG N   V+L +LPL  L+ELA+ATNNFH +N LG+GGFGPVY+G +   QEIAVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.61899e-15</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>737</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNAENVMALTDP-MIREPCFEMEILRCIHVGLLCVQDFAKDRPTISIVISMLKSETIDLPLPKQPAFTERQISLDAGSLNNVTVTIVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   +M L DP M    C   +I+RCIH+GLLCVQ+ A+ RP++S V+ ML SE  +LP PK+  F ++Q      S N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_059437188.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059437188</Hit_accession>
+  <Hit_len>828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.63728e-126</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEI--ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGK-----------------------NHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNE</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSIGNFSAGIEVRNIPEIFIWN---DSNTYWRSGPWNGQIFIGIPDMISVYLDGFNLVPDNDGTFYLSFSFSND-SFTTKFVLNAQGNIQQTYFDTGDDHWGIEWSALNTDCDVYGRCGAFGSCNSQNSPICSCIPGFEPKNRKEWNRGNWTSGCVRRRPLQCERVNNGSDGGKKDGFLKLTKMKVPDFTDRSSA-QEEKCRNQCLENCSCVAYAFDAGIGCMPWTGSLIDLQKFSSGGIDLYVRLAYSEL----DKEGNVKVIVTVTVIIGVIFSGICIYLLWRWMSKQKGKMHLPLSQLTKIYEHREEEEMGDDNHGDNVNQAKLEELPILNLQELASSTNSFHQSNKLGQGGFGPVYKGKLSDGQEIAVKRLSKASGQGLEEFLNE</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPSIGNFS  +E+ NIPEI++WN       YWRSGPWNG +F+G   M+S  L GF++  +N+GTFYL++ F+    +    VLN QG ++ T +    +   I W+  N+DCD+YG CGAFGSCNSQ SPIC+C+ GFEP+N  EWN+ NWTSGCVRR PL+CE+  N S+ GK+D FLKL K KVPDF ++SS   E++CR+QCL+NCSC+AYA+D  I CM W+G+L D+  FS G I+LY+R+A SEL    D + +++VIVTV +++G++    C  LL R      GK                       NHG N    +L++LP+L L+ELA++TN+FH +N LG+GGFGPVYKG L   QEIAVKRLS ASGQGLEEF+NE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.04852e-14</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>726</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>QAWKMWNADNIVALTDP-IIREPCFEMEILRCIHVGLLCVQDFANDRPSVSIVISMLKSEIIDLPLPKQPAFTERQIAPDASSSQNNLSKCSINNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>+AW+ WN   I+ L DP +    C   +I+RCIH+GLLCVQ+ A  RPS+S V+ ML SEI +LP PK+  F ++Q     SSS         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_054795174.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054795174</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>3.84097e-126</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGM-VSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKH-----------------SGGKNHG-----NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNQKTGEKLKVTSWKSPSDPSIGTFSSGLERPSTPEVFIWN---QTQPYWRSGPWNGQVFIGLSKMYTSSYLNGFDVGREENGSVHITYSLPNG-SFFGTIVLSSEGKLVLTTWMNKHKVGMRTVQDSICDMYGLCGTFGSCDPRNSPICSCLRGFEPRNAEEWNRRNWTSGCMRRASLRCGKVKNGRDTDKDDGFLKLPMTKVPDFAEKSYG-SEEMCRIQCLNNCNCTAYAYDAAIGCMSWNGNLIDVVRFSRGGVDLYIREAYSEL---EREKKVLKVVIIVTVAVGVIIIVAAYIVWWWAARHFARRKGNNGALTLEIEESHLKNHRANLIEDLKIAKLEELPLFDFGIIATATNNFSFANKLGRGGFGTVYKGELRDGQEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+ T +K+++TSWKS SDPSIG FS  LE P+ PE+++WN   Q QPYWRSGPWNG +F+G   M  S  L+GF +  E NG+ ++TY    G  ++G IVL+ +G L +T + NK ++    VQ+S CD+YG CG FGSC+ + SPIC+CLRGFEPRN  EWN++NWTSGC+RR  L C K KN  ++ K+D FLKL  TKVPDF E+S   SE+ CR QCL NC+C AYAYD  I CM W+GNL D+V FS+G ++LYIR A SEL       + L+V++ V + VG++I+ A   +    A+H                 S  KNH      + K  +L++LPL     +ATATNNF  AN LG GGFG VYKG L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.44722e-17</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>729</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRS---------SSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKSWNEEDIITFIDPEISAADFI-NEVRRCMHIGLLCVQELARDRPSMATVMSMLNSDIVNLPPPCHPAFNKRQGASSSESSQQSNKSCSLNSVTLTNMQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WNE  I+T IDPE+S +    +++ RC+HIGLLCVQELAR RPSM+TV+ ML S+I NLPPP    F ++Q               S NSVT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_028191368.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028191368</Hit_accession>
+  <Hit_len>863</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>5.31559e-126</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTVPL-LVGIVIVTACACL-LRRCAKHSG-GKNHGN--------QKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGEKIRFVSRKSASDPSTGYFSASLERLDAPEVFLW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWNVGYEGNETVYLTYSFADPSSF-GILTLIPQGKLKLVRYYNRKHTLTLDLGISDCDVYGTCGAFGSCNGQNSPICSCLSGYEPRNQEEWSRQNWTSGCVRKVPLKCERFKNGSEDEQEDQFLKLETMKVPDFAERLDV-EEGQCGTQCLQNCSCLAYAYDAGIGCLYWTRDLIDLQKFQTAGVDLYIRLARSEFQSSNAQEHTNKTRGKRLIIGITVATAGTIIFAICAYLAIRRFNSWKGTAKDSENQSQRVTEVQKPAKLDELPLFDFEVVANATDNFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLAKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT +K++  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+++  E N T YLTY FA    + G++ L PQG L++  Y N+K  ++ ++  SDCD+YG CGAFGSCN Q SPIC+CL G+EPRN  EW++QNWTSGCVR+ PL+CE+ KN SE  +ED+FLKL+  KVPDF E+     E +C +QCLQNCSC+AYAYD  I C++W+ +L D+  F    ++LYIR+A SE       +HT+  R  R+I+ + +   G +I   CA L +RR     G  K+  N        QK  +LD+LPL   E +A AT+NFH AN LG+GGFGPVYKG+L   QEIAVKRL+ ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>4.99071e-20</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>733</Hsp_hit-from>
+      <Hsp_hit-to>863</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLLLEIISGKRNTSFRN----DDQSLS-LIGYAWNLWNEDNISFLVDPEISASGSE-NHIFRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVGFVQKQSSSSLESSSQENQFNSNNHVTLTEMQGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G++  + +       Q L   +  AW  WNE  I  L+DPE+S S  + + I RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++VGF+QKQ              +S+N VT TE+QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_057428742.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 isoform X1 [Lotus japonicus]</Hit_def>
+  <Hit_accession>XP_057428742</Hit_accession>
+  <Hit_len>833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>8.94389e-126</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSE-SGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNHGN-----------QKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGEKSRFISRKSTSDPSSGYFSASLERLDVPEVFIW--INGTRPYWRTGPWNGRVFVGVPLMSTGYLYGWNVGYEGNETVYVTYTFADQFAF-ATMTFTPQGKVKVVRYQDKKEQWTLMLEISDCDVYGKCGAFGSCNGQSSPMCSCLRGYEPKVPEEWNRKNWTSGCVRKEELKCERLKNGSEAAGQEDQFLKLQKMKVPDFAERLDV-QEGQCGTLCLQNCSCLAYAYDAGTGCLHWGGSLIDLQQFTNAGLDLYIRLAYSEFQLSNADKHTDKRRN-RLIIGITVATGAFILVVCACLGSYRYRSKKGASDSSESESQRMTGVVQKQAKLDELPLYDFEVVAAATNNFHIANTLGKGGFGPVYKGLLPDGQEIAVKRLSKTSGQGLDEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT +K +  S KS SDPS G FS SLE  ++PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+++  E N T Y+TY FA  + +   +   PQG ++V  YQ+KKE  +  ++ SDCD+YG CGAFGSCN Q+SP+C+CLRG+EP+   EWN++NWTSGCVR+  L+CE+ KN SE +G+ED+FLKLQK KVPDF E+     E +C + CLQNCSC+AYAYD    C+HW G+L D+  F+   ++LYIR+A SE        HTD  R+ R+I+ + +  G  I+  CACL     +   G +  +           QK  +LD+LPL   E +A ATNNFH AN LG+GGFGPVYKG+L   QEIAVKRLS  SGQGL+EFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>9.65669e-21</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>732</Hsp_hit-from>
+      <Hsp_hit-to>833</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNDDKIRSLIDPDLSTSGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVVLMLNSEISSLPPPKQVGFVQKQNSSSVESSSQENQCNSSNNVTITEVQGR</Hsp_hseq>
+      <Hsp_midline>AW  WN+ +I +LIDP++S S  + + I+RCIHI  LCVQE+A+ RP+M+TV+ ML SEI +LPPPK+VGF+QKQ              +SSN+VT TE+QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_027350173.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027350173</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>1.85056e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDS---ESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNH---------------------GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>ELSSNKITGEKVGLTSWKSPSDPSIGSFSLSIERFNIPEIFIWN---DNQPYWRSGPWNGRVFLGVPGMEAMYLNGFHVENNGDGT--VAGYFTVDELGLTVLTLNWQGLLQEDNWDDKKEEWQVTWTSRKSDCDVYGICGAFASCNSQTSPICTCLKGFEPRNIEEWNRQNWTNGCISRTPLQCERANHQSRSVDSNKPDGFLRLEMVKVPDFAEGSSV-TQDQCQSQCLENCTCIAYSYDAVIGCMTWSGSLIDIQQFTLGGSDLYIRVAYTELG----KGRNIIVIITIIVIIGVLLFLTCAYVIWRRALHLAMKKKLGFFRLNKGTTSEENVSDNIIGEFSQAKLQELLLFNFEKLATATNNFQSSNKLGQGGFGPVYKGELRDGKKIAIKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S+NKIT +KV LTSWKS SDPSIG+FS+S+E  NIPEI++WN     QPYWRSGPWNG +FLG  GM +  L+GFH+E+  +GT  +   F        ++ LN QG L+   + +KKE   ++W  + SDCD+YG CGAF SCNSQ SPIC CL+GFEPRN+ EWN+QNWT+GC+ RTPL+CE+  + S   +S K D FL+L+  KVPDF E SS  ++D+C+SQCL+NC+CIAY+YD  I CM WSG+L DI  F+ G  +LYIRVA +ELG      R++ VI+T+ +++G+++   CA ++ R A H   K                       G     +L +L L   E+LATATNNF S+N LG+GGFGPVYKG L   ++IA+KRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>4.69638e-17</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>706</Hsp_hit-from>
+      <Hsp_hit-to>836</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLLLEIVSGRQNSSFYDPENS-----QTILGFAWIKWTEDNIVTLIDSGIYDSSLHKD-ILRCIHIGLLCVQEFAPDRPTMATVISMLNSEIVNLPPPREPAFILRQNMLNSVSSDERFGLYSINTVSITDIHGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G Q  +     N+     +  +  AW  W E  I+TLID  +  S   +D I+RCIHIGLLCVQE A  RP+M+TV+ ML SEI NLPPP+E  F+ +Q +    SS         N+V+ T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_059439287.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059439287</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>3.60418e-125</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEI-ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRR-----------------------CAKHSGGKNHGNQ-KHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSVGNFSAGIDVRNLPEFFIWN---GRSTYWRSGPWNSRIFIGVPNMYSSYLDAFSLVDDTEGTFFVTFTFPN-ESFTTTIVLNTQGNLQEQYCDNGDDWGIGWSALNTECDVYGKCGAFGNCYSQNSPICSCLRGFEPKITQEWNGGNWTSGCVRRTPLQCERVNNGSEEGKKDGFFKLTKMKVPD-LEDLSPASEEQCRNQCLENCSCTAYAYDSGIRCMSWTRSLIDLQKFSGGGVDLYVRVAYSEL----DKEENVKVIITVTMITGVIFTGISTYLLSRWMAKQKARKKKTKEMLLLNRREAYPKFPGEVKHGDSLNQVKLQDLPLFNLQELASATNNFHLSNKLGQGGFGPVYRGKLLDGQDIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPS+GNFS  +++ N+PE ++WN       YWRSGPWN  +F+G   M S  L  F +  +  GTF++T+ F     +   IVLN QG L+     N  +  I W+  N++CD+YG CGAFG+C SQ SPIC+CLRGFEP+   EWN  NWTSGCVRRTPL+CE+  N SE GK+D F KL K KVPD LE  S  SE++CR+QCL+NCSC AYAYD  I CM W+ +L D+  FS G ++LY+RVA SEL    D + +++VI+TV ++ G++       LL R                         K  G   HG+    V+L DLPL  L+ELA+ATNNFH +N LG+GGFGPVY+G L   Q+IAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.31382e-15</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>733</Hsp_hit-from>
+      <Hsp_hit-to>834</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKMWNADNIVALTDP-MIREACFEMEILRCIHVGLLCVQEFAKDRPTVSIVISMLKSEIIDLPLPKQPAFTERQIAPDTDSSQHNPSQCSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   I+ L DP M    C   +I+RCIH+GLLCVQE A+ RP++S V+ ML SEI +LP PK+  F ++Q      SS         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_024626670.2|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Medicago truncatula]</Hit_def>
+  <Hit_accession>XP_024626670</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>5.31319e-125</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIV--LNPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPL-ECE--KGKNDSESGKEDEFLKLQKTKVPDFLEQSS-TFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRV-IVTVPLLVGIVIVTACACLL--RRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGEKVKQTSWKTPYDPSIGSFSLSVERLTIPEVFIWN---ENQPYWRTGPWNGKIFTGLPYMTTHYLGGLHVGDDGEGN---VSFFQITSDTVGLIIYNLSSEGNCEEKWWDEKKKEWKVTWNSHEMECDVYGVCGHFASCNSQSSPICSCLKGFEPRNKEEWNKQNWTEGCVRRTPLQQCERYRNQNTSEDSNADGFLKLPMVKVPDFADGSSLTLSSETCKSQCLENCSCVAYSYDADIGCMSWTGNLVDIQKFSNGGLDLYIRVAHTEL----DKEKNMKVIIITITVLTGTVIVLACAYIMWRRRTNHHATIRSDNAIGELSQVKLQELLLFNFGKLATATNNFHSSNKLGQGGFGPVYKGTMHDGQEIAVKRLSKASGQGLKEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT +KV+ TSWK+  DPSIG+FS+S+E   IPE+++WN   + QPYWR+GPWNG +F G   M +  L G H+  +  G       F       GLI+  L+ +G  E   +  KK+   ++WN    +CD+YG CG F SCNSQ+SPIC+CL+GFEPRN  EWNKQNWT GCVRRTPL +CE  + +N SE    D FLKL   KVPDF + SS T S + C+SQCL+NCSC+AY+YD  I CM W+GNL DI  FS G ++LYIRVA++EL    D +++++V I+T+ +L G VIV ACA ++  RR   H+  ++    G    V+L +L L    +LATATNNFHS+N LG+GGFGPVYKG +   QEIAVKRLS ASGQGL+EFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.23796e-12</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>721</Hsp_hit-from>
+      <Hsp_hit-to>796</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQV</Hsp_qseq>
+      <Hsp_hseq>VWIQWQEGNILPLIDPEI-YDHIHHKYITRSIHIGLLCVQEFSIDRPTMAAVISMLNSDIVDLPPPKKPAFILKQNM</Hsp_hseq>
+      <Hsp_midline> W  W EG I+ LIDPE+ Y       I R IHIGLLCVQE +  RP+M+ V+ ML S+I +LPPPK+  F+ KQ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_024626671.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Medicago truncatula]</Hit_def>
+  <Hit_accession>XP_024626671</Hit_accession>
+  <Hit_len>823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.045</Hsp_bit-score>
+      <Hsp_score>1011</Hsp_score>
+      <Hsp_evalue>6.04151e-125</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIV--LNPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPL-ECE--KGKNDSESGKEDEFLKLQKTKVPDFLEQSS-TFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRV-IVTVPLLVGIVIVTACACLL--RRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGEKVKQTSWKTPYDPSIGSFSLSVERLTIPEVFIWN---ENQPYWRTGPWNGKIFTGLPYMTTHYLGGLHVGDDGEGN---VSFFQITSDTVGLIIYNLSSEGNCEEKWWDEKKKEWKVTWNSHEMECDVYGVCGHFASCNSQSSPICSCLKGFEPRNKEEWNKQNWTEGCVRRTPLQQCERYRNQNTSEDSNADGFLKLPMVKVPDFADGSSLTLSSETCKSQCLENCSCVAYSYDADIGCMSWTGNLVDIQKFSNGGLDLYIRVAHTEL----DKEKNMKVIIITITVLTGTVIVLACAYIMWRRRTNHHATIRSDNAIGELSQVKLQELLLFNFGKLATATNNFHSSNKLGQGGFGPVYKGTMHDGQEIAVKRLSKASGQGLKEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT +KV+ TSWK+  DPSIG+FS+S+E   IPE+++WN   + QPYWR+GPWNG +F G   M +  L G H+  +  G       F       GLI+  L+ +G  E   +  KK+   ++WN    +CD+YG CG F SCNSQ+SPIC+CL+GFEPRN  EWNKQNWT GCVRRTPL +CE  + +N SE    D FLKL   KVPDF + SS T S + C+SQCL+NCSC+AY+YD  I CM W+GNL DI  FS G ++LYIRVA++EL    D +++++V I+T+ +L G VIV ACA ++  RR   H+  ++    G    V+L +L L    +LATATNNFHS+N LG+GGFGPVYKG +   QEIAVKRLS ASGQGL+EFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>2.37165e-13</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>721</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS----------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>VWIQWQEGNILPLIDPEI-YDHIHHKYITRSIHIGLLCVQEFSIDRPTMAAVISMLNSDIVDLPPPKKPAFILKQNMLSSVSPEENNDDFYSVNLVSISDIHGR</Hsp_hseq>
+      <Hsp_midline> W  W EG I+ LIDPE+ Y       I R IHIGLLCVQE +  RP+M+ V+ ML S+I +LPPPK+  F+ KQ +    S           N V+ ++I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_059436888.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: uncharacterized protein LOC132169971 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059436888</Hit_accession>
+  <Hit_len>1668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>6.73627e-125</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1002</Hsp_hit-from>
+      <Hsp_hit-to>1398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTLEVTMYQNKKEI--ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPL-LVGIVIVTACACLLRR-----------------------CAKHSGGKNHGNQ-KHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSIGNFSAGIEVRNIPEFFIWN---DSNTYWRSGPWNGQIFIGVPDMVSVYLDGFNLVPDNDGTFYLSFSFSNESFPTK--FVLNAQGNLQQTYFDTGDDHWGIGWSALNSDCDVYGKCGAFGSCNSQNSPICSCIPGFEPKNREEWNRGNWTSGCVRRRPLQCERVNNGSDGGKKDGFLKLTMMKVPDLADWSSA-REENCRNQCLENCSCIAYAFDAGTGCMPWTRSLIDLQKFSSGGIDLYVRVAYSEL----DKEENVKVIVTVTVQIIGVIFTGICTYILWRWMAKQKARKKKTKEMLLLNIREAYPKFPGEDKHGDRLNQVKLQDLPLFNLQELASATNNFHLSNKLGQGGFGPVYKGKLLDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPSIGNFS  +E+ NIPE ++WN       YWRSGPWNG +F+G   MVS  L GF++  +N+GTFYL++ F+ + +P     VLN QG L+ T +    +   I W+  NSDCD+YG CGAFGSCNSQ SPIC+C+ GFEP+N  EWN+ NWTSGCVRR PL+CE+  N S+ GK+D FLKL   KVPD  + SS   E+ CR+QCL+NCSCIAYA+D    CM W+ +L D+  FS G I+LY+RVA SEL    D + +++VIVTV + ++G++    C  +L R                         K  G   HG++   V+L DLPL  L+ELA+ATNNFH +N LG+GGFGPVYKG L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>7.22633e-114</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAK-GYPYYGLIVLNPQGTLEVTMYQNKKEI---ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHS---------------GGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSTGNFSAGIDVRNLPELFIWN---GSRLYWRSGPWNGQVFIGIPNMYSVYRDGFSLVDDKEGTFYLSFSFSNDSFPY--TYVLNEQGNL-LEAYSNNSGVDWEVTWSSFKTECDVYGKCGAFGSCNSQNTPICSCLPGFEPKNTEEWNRGNWTSGCVRRTPLQCEKVNNGSDGGKKDGFLKLTMMKVPDFEEYSSYAREEKCKSLCLENCSCIAYAFDSGIGCMPWARSLIDVQKFPSGGIDLYVRLAYSEL----DKEGNVKVIVTVTVIIGVIFTGICIYLFRRWMANQKARKKKTKEILLLSMGEDKHGDNVNQAKLEELPIFNLRELASATNSFHQSNKLGQGGFGPVYRGKLLDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPS GNFS  +++ N+PE+++WN     + YWRSGPWNG +F+G   M S    GF +  +  GTFYL++ F+   +PY    VLN QG L +  Y N   +   ++W+   ++CD+YG CGAFGSCNSQ +PIC+CL GFEP+N  EWN+ NWTSGCVRRTPL+CEK  N S+ GK+D FLKL   KVPDF E SS   E++C+S CL+NCSCIAYA+D  I CM W+ +L D+  F  G I+LY+R+A SEL    D + +++VIVTV +++G++    C  L RR   +                G   HG N    +L++LP+  L ELA+ATN+FH +N LG+GGFGPVY+G L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>3.71131e-14</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>1570</Hsp_hit-from>
+      <Hsp_hit-to>1668</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQK------QQVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWQMWNANNIVALTDL-MIREPCFEMEILRCIHVGLLCVQEVAKDRPTVSTVISMLKSETLDLPLPKQPAFTERQIAPDAQQNPSKCSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   I+ L D  M    C   +I+RCIH+GLLCVQE+A+ RP++STV+ ML SE  +LP PK+  F ++      QQ   + S N+VT T +QGR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>5.5752e-13</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>727</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGR--IMTLIDP---EMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQV---------RGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKMWNADKDNIVALTDPIIHEPRFEM----EILRCIHVGLLCVQEFANDRPTISIVISMLKSEIIDLPLPKQPAFTERQNAPDARSSQHNPSKSSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN  +  I+ L DP   E  + M    +I+RCIH+GLLCVQE A  RP++S V+ ML SEI +LP PK+  F ++Q             +SS N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_061372283.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061372283</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>7.04069e-125</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEI--ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDS---ESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSG-----------GKNHGNQK------HVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGKKVELTSWKSLSDPSIGSFSFSVERLKIPELFILN---GTQPYWRSGPWNGQVFIGVLNMGTAYLNGIKVEDDGNGTIEISFT-AYGMGLV-MLTLNPQGQYVQNNWDDEKEQWQVTWTSHQSDCDVYGICGAFASCSSQGSPICSCLKGFEPRNKEEWNRQNWTRACVRSTPLQCERTNNQNTSVDSNKADGFLTLQMIKVPDF-AQGSSVTQDTCRSGCLENCSCIAYAYDNAIGCMSWNRDLIDIQQFSSGGIDLYVRVAYTEL----DKGRNKKVIITVTVIIGTFLIFTCAYVIWRRKKKNSGFNRFKTGEISESKEHTNDKVIGKLSQAKLQELLQFSFEKLATATNYFHSSNKLGQGGFGAVYKGKLQDGKEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT KKV+LTSWKS SDPSIG+FS S+E   IPE+++ N     QPYWRSGPWNG +F+G   M +  L+G  +E + NGT  +++  A G     ++ LNPQG      + ++KE   ++W    SDCD+YG CGAF SC+SQ SPIC+CL+GFEPRN  EWN+QNWT  CVR TPL+CE+  N +   +S K D FL LQ  KVPDF  Q S+ ++D CRS CL+NCSCIAYAYD  I CM W+ +L DI  FS G I+LY+RVA +EL    D  R+ +VI+TV +++G  ++  CA ++ RR  K+SG            K H N K        +L +L     E+LATATN FHS+N LG+GGFG VYKG L+  +EIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.83189e-13</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>720</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRS---------SSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>VWIQWKEEDVISLVDPGI-YDPSLEKHIIRCIHIGLLCVQEFAADRPNMAAVISMLNSEIVDLPPPRQPAFILRQNMLSSLSSDESLRLHSINNVSITDIHGR</Hsp_hseq>
+      <Hsp_midline> W  W E  +++L+DP + Y       I+RCIHIGLLCVQE A  RP+M+ V+ ML SEI +LPPP++  F+ +Q +             S N+V+ T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_061362729.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X3 [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061362729</Hit_accession>
+  <Hit_len>793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.9597e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYP-YYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLR-VIVTVPLLVGIVIVTACACLLRR--CAKHSGGK----NHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>ATNRVTGKKIEYISWKSNSDPSTGYFTGSLERLDAPEVFFW--FNKTRPYWRTGPWNGRVFIGSPRMLTEYLNGWRLDHDDDGTVYLTYIY--GDPSTFGILSLTPHGTLKYVRFLNKKEILTLEVDQNKCDFYGTCGPFGNCDPLNSPICSCFQGFEPRNSEEWNRKNWTSGCERTAPLECSKLNNGSAIQK-DGFLVFHNMKVPDFAERSDG-NQEKCGTDCLANCSCLAYAYDSYIGCMYWSRDLIDLQKFPYGGVDLFIRVPQSELVTGGKKGRGHKTLIMAITGSVGTFALAVCAYLLWRKWTPKHTGSQPQNLNIGDKKQMKLEELPLFDFEKLATATNNFHLANMLGKGGFGPVYKGQLEDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>+ N++T KK++  SWKS+SDPS G F+ SLE  + PE++ W  +N+ +PYWR+GPWNG +F+G   M++  L+G+ ++ +++GT YLTY++  G P  +G++ L P GTL+   + NKKEI++  V  + CD YG CG FG+C+   SPIC+C +GFEPRN  EWN++NWTSGC R  PLEC K  N S   K D FL     KVPDF E+S   ++++C + CL NCSC+AYAYD +I CM+WS +L D+  F  G ++L+IRV  SEL       R  + +I+ +   VG   +  CA LL R    KH+G +    N G++K ++L++LPL   E+LATATNNFH ANMLG+GGFGPVYKG LE  QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.86062e-18</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>693</Hsp_hit-from>
+      <Hsp_hit-to>793</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ--------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNEDNTVSLIDTEIWDPLLE-SSMLRCIHIGLLCVQELTRERPTISTVVLMLISEITHLPPPGLVAFVQKQNFPSINSNQKSQCNSNNNVTLSEIQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WNE   ++LID E+   + +   ++RCIHIGLLCVQEL R+RP++STV+ ML SEI +LPPP  V F+QKQ        Q    +S+N+VT +EIQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_061362728.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061362728</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>2.3302e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYP-YYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLR-VIVTVPLLVGIVIVTACACLLRR--CAKHSGGK----NHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>ATNRVTGKKIEYISWKSNSDPSTGYFTGSLERLDAPEVFFW--FNKTRPYWRTGPWNGRVFIGSPRMLTEYLNGWRLDHDDDGTVYLTYIY--GDPSTFGILSLTPHGTLKYVRFLNKKEILTLEVDQNKCDFYGTCGPFGNCDPLNSPICSCFQGFEPRNSEEWNRKNWTSGCERTAPLECSKLNNGSAIQK-DGFLVFHNMKVPDFAERSDG-NQEKCGTDCLANCSCLAYAYDSYIGCMYWSRDLIDLQKFPYGGVDLFIRVPQSELVTGGKKGRGHKTLIMAITGSVGTFALAVCAYLLWRKWTPKHTGSQPQNLNIGDKKQMKLEELPLFDFEKLATATNNFHLANMLGKGGFGPVYKGQLEDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>+ N++T KK++  SWKS+SDPS G F+ SLE  + PE++ W  +N+ +PYWR+GPWNG +F+G   M++  L+G+ ++ +++GT YLTY++  G P  +G++ L P GTL+   + NKKEI++  V  + CD YG CG FG+C+   SPIC+C +GFEPRN  EWN++NWTSGC R  PLEC K  N S   K D FL     KVPDF E+S   ++++C + CL NCSC+AYAYD +I CM+WS +L D+  F  G ++L+IRV  SEL       R  + +I+ +   VG   +  CA LL R    KH+G +    N G++K ++L++LPL   E+LATATNNFH ANMLG+GGFGPVYKG LE  QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.46966e-18</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>696</Hsp_hit-from>
+      <Hsp_hit-to>796</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ--------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNEDNTVSLIDTEIWDPLLE-SSMLRCIHIGLLCVQELTRERPTISTVVLMLISEITHLPPPGLVAFVQKQNFPSINSNQKSQCNSNNNVTLSEIQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WNE   ++LID E+   + +   ++RCIHIGLLCVQEL R+RP++STV+ ML SEI +LPPP  V F+QKQ        Q    +S+N+VT +EIQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_059436884.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059436884</Hit_accession>
+  <Hit_len>826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>5.29697e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTLEVTMYQN--KKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAK---------------HSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNVTSGKKVQLTSWKNPSDPSIGNFSAGIVVRNLPEFFIWN---GSSTYWRSGPWNSLVFIGVREMNSVYLNGFSLVDDQEGTFYFSYAFSNESFPVN--FVLNAQGNL-LRKYSNDGKDWKVRWSALETECDVYAKCGAFGSCNSQNSPICSCLRGFEPKNTQEWNRGNWTSGCVRRTPLQCERKNNGSDGSKKDGFLKLTMMKVSD-LEDWSSALEEQCRSQCLENCSCNAYAYDSGIGCMPWTRSLIDVQKFSSGGIDLYVRLAYSEL----DKEGNVKVIVIVTMIIGVIFTGICIYLLRRWMAKQKARKKKMKEILLLNMGEDKHGDNVNQAKLEELPIFNLQELASVTNSFHQSNKLGQGGFGPVYKGKLLDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  + KKVQLTSWK+ SDPSIGNFS  + + N+PE ++WN       YWRSGPWN  +F+G   M S  L+GF +  +  GTFY +Y F+ + +P     VLN QG L +  Y N  K   + W+   ++CD+Y  CGAFGSCNSQ SPIC+CLRGFEP+N  EWN+ NWTSGCVRRTPL+CE+  N S+  K+D FLKL   KV D LE  S+  E++CRSQCL+NCSC AYAYD  I CM W+ +L D+  FS G I+LY+R+A SEL    D + +++VIV V +++G++    C  LLRR                  + G   HG N    +L++LP+  L+ELA+ TN+FH +N LG+GGFGPVYKG L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.49383e-14</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>725</Hsp_hit-from>
+      <Hsp_hit-to>826</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKMWNADNLVAVTDPIIR-EPCFEKEILRCIHVGLLCVQEFANDRPSVSIVISMLKSEIVDLPLPKQPAFTERQIAPDASSSQHNPSKCSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   ++ + DP +    C   +I+RCIH+GLLCVQE A  RPS+S V+ ML SEI +LP PK+  F ++Q     SSS         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_059436890.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059436890</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.275</Hsp_bit-score>
+      <Hsp_score>1009</Hsp_score>
+      <Hsp_evalue>5.49443e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>624</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLF-AKGYPYYGLIVLNPQGTLEVTMYQNKKEI-ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRR-------CAKHSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNVRTGKKLQLTSWKSRSDPSIGNFSAGIEVRNLPEFFIWN---GSRLIWRSGPWNSWFFIGVPIMYSAYRDGFSLVDDKEGTFYITFTFWNESFPKH--FVLNEQGNLLQASSINEEDWEVTWSSFQTECDVYGKCGAFGSCNSQNTPICSCLRGFEPKNTEEWNRGNWTSGCVRRTPLQCERVNNGSDGGKKDGFLKLTMMKVPDLADWSSA-REENCRNQCLENCSCIAYAFDASIGCMPWTRSLIDLQKFSSGGIDLYVRLAYSEL----DTKEKVKVIITVTVIIGLIFIGICTYLLWRRRKSKMLLYKFSGEEKLGDNVNQVKLQELSLFNLQELASATNNFHQSNKLGQGGFGHVYRGKLSNGQEIAVKRLSRASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KK+QLTSWKS SDPSIGNFS  +E+ N+PE ++WN     +  WRSGPWN   F+G   M S    GF +  +  GTFY+T+ F  + +P +   VLN QG L      N+++  ++W+   ++CD+YG CGAFGSCNSQ +PIC+CLRGFEP+N  EWN+ NWTSGCVRRTPL+CE+  N S+ GK+D FLKL   KVPD  + SS   E+ CR+QCL+NCSCIAYA+D  I CM W+ +L D+  FS G I+LY+R+A SEL    D+   ++VI+TV +++G++ +  C  LL R         K SG +  G N   V+L +L L  L+ELA+ATNNFH +N LG+GGFG VY+G L   QEIAVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>6.36234e-15</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>890</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>HVELDDLPLLKLEELATATNNFHSANMLGEGG--------------FGPVY--KGVLEGEQEI---AVKRLSNASGQGLEEFMN--EAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>HRDLKASNILLDEELNPKISDFGLARIFGGNGDQANTARVVGTYGYMSPEYAMKGRFSEKSDVFSFGVLLLEIVSGRRNSSFFSCFQAWKMWNADNIVALTDPIIC-EPCFQMEILRCIHVGLLCVQDFANDRPTVSIVISMLKSEIIDLPLPKQPAFTERQIAPDTSSSQNNPSKCSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>H +L    +L  EEL    ++F  A + G  G                P Y  KG    + ++    V  L   SG+    F +  +AW+ WN   I+ L DP +    C + +I+RCIH+GLLCVQ+ A  RP++S V+ ML SEI +LP PK+  F ++Q     SSS         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_061362727.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Gastrolobium bilobum]</Hit_def>
+  <Hit_accession>XP_061362727</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>6.30768e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYP-YYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLR-VIVTVPLLVGIVIVTACACLLRR--CAKHSGGK----NHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>ATNRVTGKKIEYISWKSNSDPSTGYFTGSLERLDAPEVFFW--FNKTRPYWRTGPWNGRVFIGSPRMLTEYLNGWRLDHDDDGTVYLTYIY--GDPSTFGILSLTPHGTLKYVRFLNKKEILTLEVDQNKCDFYGTCGPFGNCDPLNSPICSCFQGFEPRNSEEWNRKNWTSGCERTAPLECSKLNNGSAIQK-DGFLVFHNMKVPDFAERSDG-NQEKCGTDCLANCSCLAYAYDSYIGCMYWSRDLIDLQKFPYGGVDLFIRVPQSELVTGGKKGRGHKTLIMAITGSVGTFALAVCAYLLWRKWTPKHTGSQPQNLNIGDKKQMKLEELPLFDFEKLATATNNFHLANMLGKGGFGPVYKGQLEDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>+ N++T KK++  SWKS+SDPS G F+ SLE  + PE++ W  +N+ +PYWR+GPWNG +F+G   M++  L+G+ ++ +++GT YLTY++  G P  +G++ L P GTL+   + NKKEI++  V  + CD YG CG FG+C+   SPIC+C +GFEPRN  EWN++NWTSGC R  PLEC K  N S   K D FL     KVPDF E+S   ++++C + CL NCSC+AYAYD +I CM+WS +L D+  F  G ++L+IRV  SEL       R  + +I+ +   VG   +  CA LL R    KH+G +    N G++K ++L++LPL   E+LATATNNFH ANMLG+GGFGPVYKG LE  QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.39864e-18</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>721</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ--------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNEDNTVSLIDTEIWDPLLE-SSMLRCIHIGLLCVQELTRERPTISTVVLMLISEITHLPPPGLVAFVQKQNFPSINSNQKSQCNSNNNVTLSEIQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WNE   ++LID E+   + +   ++RCIHIGLLCVQEL R+RP++STV+ ML SEI +LPPP  V F+QKQ        Q    +S+N+VT +EIQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_017411772.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Vigna angularis]</Hit_def>
+  <Hit_accession>XP_017411772</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>8.20879e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTV-PLLVGIVIVTACACL-LRR------CAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANKVTGEKIQFVSRKSASDPSTGYFSASLERLHAPEVFLW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWSVGYEGNDIVYLTYSFADPSSF-GILTLSPEGKIKLVRYYNNKKGLTLDLGISDCDVYGTCGAFGSCNGQSSPICSCLSGFEARNQEEWRKKNWTSGCVRKVPLQCQRFNNGSEAAQEDRFLKLETMKVPDFAERLDV-EEGQCGTQCLKNCSCLAYAYDAGIGCMYWTRDLIDLQKFQTAGIDLYIRLAHSEFQSSNAQEHTNKRRGKELIIGITAATAGAIILAICAYLAIRRYHSRKGTAEDSGSEKHLVTAVQKPAKLDELPLFEFEVVENATNSFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK+T +K+Q  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N   YLTY FA    + G++ L+P+G +++  Y N K+ ++ ++  SDCD+YG CGAFGSCN Q+SPIC+CL GFE RN  EW K+NWTSGCVR+ PL+C++  N SE+ +ED FLKL+  KVPDF E+     E +C +QCL+NCSC+AYAYD  I CM+W+ +L D+  F    I+LYIR+A+SE       +HT+  R   +I+ +     G +I+  CA L +RR       A+ SG + H     QK  +LD+LPL + E +  ATN+FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.30943e-19</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>728</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEDNIRFLVDPEISASGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVAFVQKQSSSSLESSSQENNCNSNNHVTLTDIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I  L+DPE+S S  + + I+RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++V F+QKQ              +S+N VT T+IQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_042941391.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Carya illinoinensis]</Hit_def>
+  <Hit_accession>XP_042941391</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>8.88775e-124</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRC-----------------------AKHSG-GKNHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNVRTSKKVQLTSWTNQFDPSIGTFSVGIDVFNLPEL---SIWNGSSRYWRSGPWNSRVFIGIPSMNSVFLDGFSLIDDQEGTFYFSFAFSN-ESILSNFVLNAQGNI-VQNYSNKGDNWEVGWVALETECDVYGMCGAFGICNSKSSPICNCLVGFEPKNIEEWNRGNWGSGCVRRTPLQCERLTTGGEEGKKDAFLELKMMKVPDLVDWSSAF-EDKCRDQCLENCSCIAYAYDAGTGCMSWTRDLIDLQEFSIGGVDLYVRVANSELDRK---EVDVKVVITITTIVGTLFLAICTFSLWRCMAKRKARKRKTREILSLNIEQAYAKFPGQSKLEDSMNQVRLQELPIFSFEELASATNSFHQTNKLGQGGFGPVYKGKLLHGQEIAVKRLSRSSGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KKVQLTSW +  DPSIG FSV +++ N+PE+   ++WN    YWRSGPWN  +F+G   M S  L GF +  +  GTFY ++ F+         VLN QG + V  Y NK +   + W    ++CD+YG CGAFG CNS++SPICNCL GFEP+N+ EWN+ NW SGCVRRTPL+CE+     E GK+D FL+L+  KVPD ++ SS F ED+CR QCL+NCSCIAYAYD    CM W+ +L D+  FS G ++LY+RVANSEL      + D++V++T+  +VG + +  C   L RC                       AK  G  K   +   V L +LP+   EELA+ATN+FH  N LG+GGFGPVYKG L   QEIAVKRLS +SGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_062160910.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Alnus glutinosa]</Hit_def>
+  <Hit_accession>XP_062160910</Hit_accession>
+  <Hit_len>832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>1.50885e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNS----DCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKND-SESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL------RRCAKHSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>EISTDVRTGKKVQLTSWKSPSDPSIGNFSAGIDVRNLPEIFVWN---DGSPYWRSGPWNSRIFIGVPGMDSSYLVGFSLKDDKEGTFSLTFSFWNDPLRKDFFVLNAQGNIWQKHSNNGED---WKVRRSILETECDVYGRCGAFGSCNSKNSPICSCLWGFEPKNTEEWNRGNWTSGCVRRTPLQCERVNNNGSEGEKKDGFLKLTMMKVP-YLAGWSTTLEENCSTQCLENCSCIAYAYDSGIGCMTWTGSLIDIQKFPTGGVDLYVRLAYSEL----DKMGNVKAIVTVAVTIGVISTGICTYLLWRWSSKQKATKYRREDKHGENVNQVLLQELPLFSLQEMASATNNFHLSNKLGQGGFGPVYRGKMSDGEEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S +  T KKVQLTSWKS SDPSIGNFS  +++ N+PEI+VWN      PYWRSGPWN  +F+G  GM S  L GF ++ +  GTF LT+ F          VLN QG +      N ++   W V+ S    +CD+YG CGAFGSCNS+ SPIC+CL GFEP+N  EWN+ NWTSGCVRRTPL+CE+  N+ SE  K+D FLKL   KVP +L   ST  E+ C +QCL+NCSCIAYAYD  I CM W+G+L DI  F  G ++LY+R+A SEL    D   +++ IVTV + +G++    C  LL      ++  K+     HG N   V L +LPL  L+E+A+ATNNFH +N LG+GGFGPVY+G +   +EIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.3381e-15</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>740</Hsp_hit-from>
+      <Hsp_hit-to>832</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWRMWNAENIMALTDP-MIREPCFEMEILKCIHVGLLCVQDFAKDRPTISDVIFMLKSETIDLPLPKQPAFTERQIAPHAGSLNNITVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AWR WN   IM L DP M    C   +I++CIH+GLLCVQ+ A+ RP++S V+ ML SE  +LP PK+  F ++Q      S N++T T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_042944347.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X3 [Carya illinoinensis]</Hit_def>
+  <Hit_accession>XP_042944347</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>4.13997e-123</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE-IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGG---KNHGNQKHV-------ELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKNVRLTSWKRHSDPSVGAFFAASYLSNLPEMFIWN---DSKPYWRSGPWNSQIFIGTPPMYSVYLNGFSLVDDKEGTFYFTYDISNKSMLLHY-TLSSEGNLEEIRSINGKDWVVTWSSLVSECDIYGKCGAFGSCNSQNSPICSCLEGFEPKNMEEWNGRNWSSGCVRRTPLQCTRVNSTGGEEGQKDGFLRVKMMKTPDFANWSSTV-EDECRYQCLENCSCIAYAYESGIGCMSWSSDLIDLQKFSTGGVDLYVRVAYSEL----DKKGELKVIITVTVVIGSVFVAICTFFLCQWMAKRKGGIYLKLHGEGNHLAVSMNKDKLEELPILSREELASATNNFDQSNKLGQGGFGPVYRGKLPDGQEVAVKRLARTSGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T K V+LTSWK HSDPS+G F  +  L N+PE+++WN     +PYWRSGPWN  +F+G   M S  L+GF +  +  GTFY TY  +          L+ +G LE     N K+ +++W+   S+CDIYG CGAFGSCNSQ SPIC+CL GFEP+N+ EWN +NW+SGCVRRTPL+C +      E G++D FL+++  K PDF   SST  ED CR QCL+NCSCIAYAY+  I CM WS +L D+  FS G ++LY+RVA SEL    D   +L+VI+TV +++G V V  C   L +  AK  GG   K HG   H+       +L++LP+L  EELA+ATNNF  +N LG+GGFGPVY+G L   QE+AVKRL+  SGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_054779126.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Prosopis cineraria]</Hit_def>
+  <Hit_accession>XP_054779126</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>4.1414e-123</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPF-ISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRR-CAKHSGGKNH--------GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SLNKITGAKMKLTSWKSHSDPSTGYYSVSLERPDAPDIFAW--FNGTHPYSRTGPWNGRIFTGRPMMPTRYLYGCYVKNEDDGTVYITCDLANDTSF-PILSLSPQGQLWIALWNEKREIMRNMLNITYCDHYGICGAFGSCNSRRSPACSCLNGYEPKKLDEWNKQNWASGCVRKKPLQCDTMGNSSEVHEKDGFSKLENMKVPDFLIRSTAPDQDNCRTQCLDNCSCVAYAFDLHGIGCMHWSGDLIDQQRFSSGGVDLYIRLPLSELENHSHKRKILTAIMAT---IGIITLIACAYLVRKLTVKCAGGADSHSQAQRVISQQEEIKMDELPLYDFEELATATNNFHTTNLLGRGGFGSVYKGQLKDGQLIAIKRLSKASRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NKIT  K++LTSWKSHSDPS G +SVSLE P+ P+I+ W  +N   PY R+GPWNG +F G   M +  L G ++++E++GT Y+T   A    +  ++ L+PQG L + ++  K+EI+   +  + CD YG CGAFGSCNS+ SP C+CL G+EP+ ++EWNKQNW SGCVR+ PL+C+   N SE  ++D F KL+  KVPDFL +S+   +D CR+QCL NCSC+AYA+D   I CMHWSG+L D   FS G ++LYIR+  SEL +H+   + L  I+     +GI+ + ACA L+R+   K +GG +           Q+ +++D+LPL   EELATATNNFH+ N+LG GGFG VYKG L+  Q IA+KRLS AS QG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.758e-18</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>691</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPK-------EVGFLQKQQVRGRS--SSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLLLEIVSGRSN---SRLYNTEGS--QTLLGYAWKLWNEDNLMSFIDSEIHYQ-GSSNEILRCIHIGLLCVQELAKERPTIDNVVSMLSSEIANLPPPRQPSYVLNETGFATKSTSETQTLYSTNFVSITDIIGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G       RL N  G   +  +  AW+ WNE  +M+ ID E+ Y     ++I+RCIHIGLLCVQELA++RP++  V+ ML SEI NLPPP+       E GF  K     ++  S+N V+ T+I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_014621328.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Glycine max]</Hit_def>
+  <Hit_accession>XP_014621328</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>7.94318e-123</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>390</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHI-ESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRV--ANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNHG-------NQKHVELDD-LPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TYEKVRITSWRSPSDPSLGYYSATLERPNIPEVFYW--INETQPYYRTGPWNGQIFIGSPQMSRGYLYGWNMMNDEDDGTVYLSYNLPS-QSYFAVMTLNPQGHPTIEWWRDRKLVWREVLQGNSCDRYGHCGAFGSCNWQSSPICNCLSGYKPKYVEEWNRKNWTSGCVRSEPLQCGEQTNGSEVSK-DGFLRLENMKVSDFVQRLDCL-EDECRAQCLENCSCVAYAYDNGIGCMVWSGDLIDIQKFSSGGIDLYIRVPPSESELEKHSDKRRHKIILIPVGITIGMVALAGCVCLSRKWTAKSIGKINSQRQGMNEDQKQVKLNDHLPFFSFEELVNATNNFHSANELGKGGFGSVYKGQLKDGHEIAVKRLSKTSGQGLEECMNEV</Hsp_hseq>
+      <Hsp_midline>T +KV++TSW+S SDPS+G +S +LE PNIPE++ W   N+ QPY+R+GPWNG +F+G   M  G L G+++   E++GT YL+Y       Y+ ++ LNPQG   +  ++++K +    +Q + CD YG CGAFGSCN Q+SPICNCL G++P+ V EWN++NWTSGCVR  PL+C +  N SE  K D FL+L+  KV DF+++     ED CR+QCL+NCSC+AYAYD  I CM WSG+L DI  FS G I+LYIRV  + SEL  H+D  R   +++ V + +G+V +  C CL R+    S GK +        +QK V+L+D LP    EEL  ATNNFHSAN LG+GGFG VYKG L+   EIAVKRLS  SGQGLEE MNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_027353098.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027353098</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>8.55028e-123</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVL--NPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDS---ESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRCAKHSGGKNH---------------------GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>ELSSNKITGEKVGLTSWKSPSDPSIGSFSLSIERFNIPEIFIWN---DNRSYWRSGPWNGQVFLGVPGMEATYLNGFRVENNGDGTVAVYFTVDE----LGLVVLTLNSQGQFQQHTWDDEKEEWQVTWTSPRSDCDVYGICGAFASCNSQTSPICTCLKGFEPRNIEEWNRRNWTNGCVSRTPLQCERANNQSRSVDSNKPDGFLRLEMVKVPDFAEGSSV-TQDQCQSQCLENCTCIAYSYDAVIGCMTWSGSLIDIQQFTLGGSDLYIRVAYTELG----KGRNIIVIITIPVIIGVLLFLTCAYVIWRRALHQAMKKKLGFFRFNKGTTSEENISDNIIGEFSQAKLQELLLFNFEKVATATNNFQSSNKLGQGGFGPVYKGKLQDGKKIAIKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S+NKIT +KV LTSWKS SDPSIG+FS+S+E  NIPEI++WN     + YWRSGPWNG +FLG  GM +  L+GF +E+  +GT  + +   +     GL+VL  N QG  +   + ++KE   ++W    SDCD+YG CGAF SCNSQ SPIC CL+GFEPRN+ EWN++NWT+GCV RTPL+CE+  N S   +S K D FL+L+  KVPDF E SS  ++D+C+SQCL+NC+CIAY+YD  I CM WSG+L DI  F+ G  +LYIRVA +ELG      R++ VI+T+P+++G+++   CA ++ R A H   K                       G     +L +L L   E++ATATNNF S+N LG+GGFGPVYKG L+  ++IA+KRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_027933180.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Vigna unguiculata]</Hit_def>
+  <Hit_accession>XP_027933180</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>9.79659e-123</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTV-PLLVGIVIVTACACL-------LRRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANKVTGEKIQFVSRKSASDPSTGYFSASLERLHAPEVFLW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWSVGYEGNDIVYLTYSFADPSSF-GILTLSPEGKIKLVRYYNNKKGLTLDLGISDCDVYGTCGAFGSCNGQSSPICSCLSGFEARNQEEWIRKNWTSGCVRKVPLQCERLDNGSEAVQEDRFLKLETMKVPDFAERLDV-EEGQCGTQCLKNCSCLAYAYDAGIGCLYWTRDLIDLQKFQTAGIDLYIRLAHSEFQSSNAQEHANKRRGKELIIGVTAATAGTIIFAICAYLAIRRFQSLKGTAEDSGSESHKLTAVQKPAKLDELPLFEFEVVANATNSFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK+T +K+Q  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N   YLTY FA    + G++ L+P+G +++  Y N K+ ++ ++  SDCD+YG CGAFGSCN Q+SPIC+CL GFE RN  EW ++NWTSGCVR+ PL+CE+  N SE+ +ED FLKL+  KVPDF E+     E +C +QCL+NCSC+AYAYD  I C++W+ +L D+  F    I+LYIR+A+SE       +H +  R   +I+ V     G +I   CA L       L+  A+ SG ++H     QK  +LD+LPL + E +A ATN+FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.56824e-19</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>728</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEDNISFLVDPEISASGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVAFVQKQSSSSLESSSQENNCNSNNHVTLTDIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I  L+DPE+S S  + + I+RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++V F+QKQ              +S+N VT T+IQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_020202641.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020202641</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.56348e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSES--GKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHT----DSDRDLRVIVTVPL-LVGIVIVTACACLLRR-------CAKHSGGKNHGN-QKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANRITGEKIRFVSRKTASDPSSGYFSASLERLDAPEVFFW--VNGTHPYWRTGPWNGRIFIGTPLMSTGYLYGWNVGYEGKETVYLTYSFADPSAF-GILTLTPQGKLKLVRYYNNKQVLTMDLGISDCDVYGTCGAFGTCNTESSPICSCLNGYEPRNEEEWSRRNWTSGCVRKVALKCERLRNGSESEGGQEDKFLKLGTMKVPDFAHRLDV-EEGQCGTQCLQNCSCLAYAYDAGIGCLYWSEDLIDLQKFSTAGVDLYIRLAHSEFQASTAQGHTNKRGKRLIIGIAVATAGTIILVICAYLAIRTFHLGKGTAKHSDNQRVSDVQKPVKLDELPLFDFEVVANATNDFHLGNTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N+IT +K++  S K+ SDPS G FS SLE  + PE++ W   N   PYWR+GPWNG +F+G   M +G L G+++  E   T YLTY FA    + G++ L PQG L++  Y N K++++ ++  SDCD+YG CGAFG+CN+++SPIC+CL G+EPRN  EW+++NWTSGCVR+  L+CE+ +N SES  G+ED+FLKL   KVPDF  +     E +C +QCLQNCSC+AYAYD  I C++WS +L D+  FS   ++LYIR+A+SE    T     + R  R+I+ + +   G +I+  CA L  R        AKHS  +   + QK V+LD+LPL   E +A ATN+FH  N LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.98467e-21</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>724</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEDNIKSLVDPEISGSGSE-DHILRCIHIAFLCVQEVAKTRPTMTAVLSMLNSEISHLPPPRQVGFVQKHNSSSLESSSQENQCNSNNHVTLTEIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I +L+DPE+S S  + D I+RCIHI  LCVQE+A+ RP+M+ VL ML SEI +LPPP++VGF+QK          Q    +S+N VT TEIQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_068497071.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>XP_068497071</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.64373e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTVPLLVGIVIVTACACLL---------RRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANKITGQKIQFVSRKSASDPSTGYFSASLERLHAPEVFIW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWSVGYEGNDIVYLTYSFADPSSF-GILTLSPEGKLKLVRYYNKKQGLTLDLGLSDCDVYGTCGAFGSCNGQSSPICSCLSGYQPRNQEEWRMKNWTSGCVRKVPLNCERLDNGSEAVQEDRFLKLETMKVPDFAERLDV-EEGQCGTQCLKNCSCLAYAYDAGIGCLYWTRDLIDLQKFQTAGIDLYIRLAHSEFQSSNAQEHTNKRRGKGLIIEITLATAAAIIILAICAFLAIRRFHSSKRTAKNSGSQNQRVTAVQKSAKLDELPLFDFEVVANATNSFHLANTLGKGGFGPVYKGLLSDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NKIT +K+Q  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N   YLTY FA    + G++ L+P+G L++  Y NKK+ ++ ++  SDCD+YG CGAFGSCN Q+SPIC+CL G++PRN  EW  +NWTSGCVR+ PL CE+  N SE+ +ED FLKL+  KVPDF E+     E +C +QCL+NCSC+AYAYD  I C++W+ +L D+  F    I+LYIR+A+SE       +HT+  R   +I+ + L     I+    C           +R AK+SG +N      QK  +LD+LPL   E +A ATN+FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.61374e-20</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLLLEIISGKRNTSFRN----DDQSLS-LIGYAWNLWNEDNISFLVDPEISASGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVAFVQKQSSSSLESSSRENHCNSNNHVTLTDIQGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G++  + +       Q L   +  AW  WNE  I  L+DPE+S S  + + I+RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++V F+QKQ              +S+N VT T+IQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_059437187.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059437187</Hit_accession>
+  <Hit_len>832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.76154e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>566</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>415</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTL-EVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGG---------------------------KNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNVRTGKKVLLTSWKSPSEPSIGNFSAGIDVRYLPEFFIWN---GSRLIWRSGPWNGQVFIGVQKMYSAYRDGFSLVDDKEGTFYLTFTFSNESFPTN--YVLNEQGKLLQASSFNEEDWEVTWSTFKTECDVYANCGAFGSCNSQNTPICSCLRGFEPKNREEWNRGNWTSGCVRRTPLQCERVNHGSEGGKKDGFLKLTKMKLPDLADWSSA-REEKCRNQCLENCSCVAYAFDAGIGCMPWTRSLIDLQKFSSGGIDLYVRLAYSEL----DKEGNVKLIVTVTVIIGVIFTGICIYLLWRWMAKQKGNMHLPLSQRTKIYNHREEEEMLLLNKSEDNHGENVNQAKLEELPIFNLQELASSTNSFHRSNKLGQGGFGPVYRGKLSDGQEIAVKRLSKASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KKV LTSWKS S+PSIGNFS  +++  +PE ++WN     +  WRSGPWNG +F+G + M S    GF +  +  GTFYLT+ F+ + +P     VLN QG L + + +  +   ++W+   ++CD+Y  CGAFGSCNSQ +PIC+CLRGFEP+N  EWN+ NWTSGCVRRTPL+CE+  + SE GK+D FLKL K K+PD  + SS   E++CR+QCL+NCSC+AYA+D  I CM W+ +L D+  FS G I+LY+R+A SEL    D + ++++IVTV +++G++    C  LL R  AK  G                             NHG N    +L++LP+  L+ELA++TN+FH +N LG+GGFGPVY+G L   QEIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>9.40114e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>644</Hsp_hit-from>
+      <Hsp_hit-to>832</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>HVELDDLPLLKLEELATATNNFHSANMLG--------------EGGFGPVY--KGVLEGEQEI---AVKRLSNASGQGLEEFMNE--AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>HRDLKASNILLDEELNPKISDFGMARIFGGNEDQANTTRVVGTYGYMSPEYAMKGQFSEKSDVFSFGVLLLEIISGRRNSSFYDDEQAWKMWNVDNMVALTDL-IIREPCFEMEILRCIHVGLLCVQDFANDRPTVSIVISMLKSEIIDLPLPKQPAFTERQIAPDASSSQNNLRKCSINNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>H +L    +L  EEL    ++F  A + G               G   P Y  KG    + ++    V  L   SG+    F ++  AW+ WN   ++ L D  +    C   +I+RCIH+GLLCVQ+ A  RP++S V+ ML SEI +LP PK+  F ++Q     SSS         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_058736910.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Vicia villosa]</Hit_def>
+  <Hit_accession>XP_058736910</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>2.05823e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>397</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLN--PQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLE-CEKGKNDSESG--KEDEFLKLQKTKVPDFLEQSS-TFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL--RRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGEKVKFTSWKSPFDPAIGSFSISIERLSTPEVFIWN---ETRAYWRSGPWNGRVFTGLPYMKAHYLGGTHVGDDGEGNFSF---FKTSTNTVALVIYNLTTEGNVEEKSWDEEKKEWKITWNSHETDCDVYGVCGHFASCNSENLPICSCLKGFEPRNKEEWNKQNWIDGCVRRTPLQLCERDRNQNASADNKADGFLKLQMVKVPDFADGSSLTVSSDTCRSRCLENCSCVSYSYDADIGCMSWTGNLTDIRQFSNGGLTLYIRVAQAELGKDR---RNMSVIIIITVIAGTVLVLGCAYIMWRRRSNHHARNRNDNAMGELSLVKLHELLLFNFGKLATATNNFHSSNKLGQGGFGPVYKGTLPDGQEMAVKRLSKASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT +KV+ TSWKS  DP+IG+FS+S+E  + PE+++WN   + + YWRSGPWNG +F G   M +  L G H+  +  G F     F        L++ N   +G +E   +  +K+   I+WN   +DCD+YG CG F SCNS+  PIC+CL+GFEPRN  EWNKQNW  GCVRRTPL+ CE+ +N + S   K D FLKLQ  KVPDF + SS T S D CRS+CL+NCSC++Y+YD  I CM W+GNLTDI  FS G + LYIRVA +ELG      R++ VI+ + ++ G V+V  CA ++  RR   H+  +N    G    V+L +L L    +LATATNNFHS+N LG+GGFGPVYKG L   QE+AVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.87458e-12</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>719</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS----------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>VWIQWTEDNILSVIDPGI-YDHIHYKSISRSIHIGLLCVQEFSIDRPTMAVVISMLNSEIVNLPPPKKPAFVLRQNMLSTVSSEECNDGLYTINLVSISDIHGR</Hsp_hseq>
+      <Hsp_midline> W  W E  I+++IDP + Y       I R IHIGLLCVQE +  RP+M+ V+ ML SEI NLPPPK+  F+ +Q +    SS          N V+ ++I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_062160841.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Alnus glutinosa]</Hit_def>
+  <Hit_accession>XP_062160841</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>2.0974e-122</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGL-IVLNPQGTL-EVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKND-SESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL------RRCAKHSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSIGNFSAGIDVRNLPEFLVWN---DGSPYWRSGPWNSRVFIGIPTMNSVYLDGFSLVDDKEGTFYFT--FSSSNKSFRLDYVLNAQGIVHEKHSYNGEDWVVTWSSLETECDVYGRCGAFGSCNSKNSPICSCLWGFEPKNTEEWNRGNWTSGCVRRTPLQCERVNNNGSEGEKKDGFLKLTMMKVP-YLADWSLTSEEKCRTECLENCSCIAYAYDTGIGCMTWTRSLIDVQKFSIDEADLYVRLAYSEL----DKMGNVKAIVTVTVIIGVISTGICTYLLWRWSSKQKATKYRREDKHGENVNQVLLQELPLFSLQEMASATNNFHLSNKLGQGGFGSVYRGKMSDGEEIAVKRLSRASGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPSIGNFS  +++ N+PE  VWN      PYWRSGPWN  +F+G   M S  L GF +  +  GTFY T  F+     + L  VLN QG + E   Y  +  +++W+   ++CD+YG CGAFGSCNS+ SPIC+CL GFEP+N  EWN+ NWTSGCVRRTPL+CE+  N+ SE  K+D FLKL   KVP +L   S  SE++CR++CL+NCSCIAYAYD  I CM W+ +L D+  FS  E +LY+R+A SEL    D   +++ IVTV +++G++    C  LL      ++  K+     HG N   V L +LPL  L+E+A+ATNNFH +N LG+GGFG VY+G +   +EIAVKRLS ASGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_062160839.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X2 [Alnus glutinosa]</Hit_def>
+  <Hit_accession>XP_062160839</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>2.54539e-122</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>EPSNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE-IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTD-SDRDLRVIVTVPLLVGIVIVTACACLLRRCA-------------KHSGGKNHG-NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>EISTNVTTGKKVQLTSWKSPSDPSIGNFSAAIDVRNLPEFLVWK---DSSPYWRSGPWNSRIFIGIPDMHSSYLNGFSLKDDKEGTFSLTFSYSS-IPFPTKFVLNAQGNLLLTYFDNGEDWKVQWSAWKSECDVYGKCGAFGSCNPQNSPICSCLWGFEPKNTEEWNRENWTSGCVRRRPLQCERVNNGSEGEKKDGFLKLTMMKIPDLADWSST-SEEKCRTQCLENCSCIAYAYDSGIDCMTWTRSLIDLQKFASGGADVYVRLADSELDKEGNVKVIVTVTVITGVIFTGICTFILWYWMAKQKARKRKTKMFSFPHQKFSGEDNLGDNVNQVKLQELPLFNLQELASATNNFHQSNKLGQGGFGPVYRGKMSDGQEIAVKRLSRASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>E S N  T KKVQLTSWKS SDPSIGNFS ++++ N+PE  VW       PYWRSGPWN  +F+G   M S  L+GF ++ +  GTF LT+ ++   P+    VLN QG L +T + N ++  + W+   S+CD+YG CGAFGSCN Q SPIC+CL GFEP+N  EWN++NWTSGCVRR PL+CE+  N SE  K+D FLKL   K+PD  + SST SE++CR+QCL+NCSCIAYAYD  I CM W+ +L D+  F+ G  ++Y+R+A+SEL    +        ++T  +  GI        + ++ A             K SG  N G N   V+L +LPL  L+ELA+ATNNFH +N LG+GGFGPVY+G +   QEIAVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_059437180.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Corylus avellana]</Hit_def>
+  <Hit_accession>XP_059437180</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>2.55723e-122</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTLEVTMYQNKKEI--ISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRC---------------------AKHSGGKN-HGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKKVQLTSWKSPSDPSIGNFSAGIEVRNIPEIFIWN---DSNTYWRSGPWNSKIFIGVPDMVSVYLDGFNLVPDNDGTFYLSFSFSNESFPTK--FVLNAQGNLQQTYFDTGDDHWGIGWSALNSDCDVYGKCGAFGSCNSQNSPICSCIPGFEPKNREEWNRGNWTSGCVRRRPLQCERVNNGSDGGKKDGFLKLTMMKVPDLADWSSAL-EEKCRNQCLENCSCIAYAYDSGIGCMPWTRSLIDLQKFSSGGVDLYVRLAYSEL----DKKGNVKVIVTVTVIVGVICIGICIYLLWRCMANQKEKRKMRMLLFDTGEAYKKFSGEDNLEDNVNQVKLQELPLFNLQELASATNNFHQSNKLGQGGFGPVYRGKLSSGQEIAIKRLSRVSRQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T KKVQLTSWKS SDPSIGNFS  +E+ NIPEI++WN       YWRSGPWN  +F+G   MVS  L GF++  +N+GTFYL++ F+ + +P     VLN QG L+ T +    +   I W+  NSDCD+YG CGAFGSCNSQ SPIC+C+ GFEP+N  EWN+ NWTSGCVRR PL+CE+  N S+ GK+D FLKL   KVPD  + SS   E++CR+QCL+NCSCIAYAYD  I CM W+ +L D+  FS G ++LY+R+A SEL    D   +++VIVTV ++VG++ +  C  LL RC                      K SG  N   N   V+L +LPL  L+ELA+ATNNFH +N LG+GGFGPVY+G L   QEIA+KRLS  S QG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.11423e-12</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>732</Hsp_hit-from>
+      <Hsp_hit-to>835</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQV-----------RGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKMWNADNIVALTDPIIR-EPCFEMEILRCIRVGLLCVQEFAKDRPSVSIVISMLKSEIIDLPLPKQPAFTERHIAPNAGSCQPNLSTSKYSVNNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   I+ L DP +    C   +I+RCI +GLLCVQE A+ RPS+S V+ ML SEI +LP PK+  F ++                + S N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_022642767.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_022642767</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>2.61792e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTV-PLLVGIVIVTACACL-LRRCAKHSG-GKNHGNQKHV--------ELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANKVTGEKIQFVSRKSASDPSTGYFSASLERLHAPEVFLW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWSVGYEGNDIVYLTYSFADPSSF-GILTLSPEGKIKLVRYYNNKKGLTLDLGISDCDVYGTCGAFGSCNEQSSPICSCLSGFEARNQEEWRRKNWTGGCVRKVPLQCERFNNGSEAVQEDRFLKLETMKVPDFAERLDV-EEGQCGTQCLKNCSCLAYAYDAGIGCLYWTRDLVDLQKFQTAGIDLYIRLAHSEFQSSNAQEHTNKRRGKELIIGITAATAGAIILAICAYLAIRRFHSRKGTAEDSGSEKHIVTAVQKPAKLDELPLFEFEVVENATNSFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK+T +K+Q  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N   YLTY FA    + G++ L+P+G +++  Y N K+ ++ ++  SDCD+YG CGAFGSCN Q+SPIC+CL GFE RN  EW ++NWT GCVR+ PL+CE+  N SE+ +ED FLKL+  KVPDF E+     E +C +QCL+NCSC+AYAYD  I C++W+ +L D+  F    I+LYIR+A+SE       +HT+  R   +I+ +     G +I+  CA L +RR     G  ++ G++KH+        +LD+LPL + E +  ATN+FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>8.88414e-20</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>728</Hsp_hit-from>
+      <Hsp_hit-to>829</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEENIRVLVDPEISVSGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVAFVQKQSSSSLESSSQENNCNSNNHVTLTDIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I  L+DPE+S S  + + I+RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++V F+QKQ              +S+N VT T+IQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_042941389.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Carya illinoinensis]</Hit_def>
+  <Hit_accession>XP_042941389</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>3.54965e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLLRRC-----------------------AKHSG-GKNHGNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>STNVRTSKKVQLTSWTNQFDPSIGTFSVGIDVFNLPEL---SIWNGSSRYWRSGPWNSRVFIGIPSMNSVFLDGFSLIDDQEGTFYFSFAFSNESILSNF-VLNAQGNI-VQNYSNKGDNWEVGWVALETECDVYGMCGAFGICNSKSSPICNCLVGFEPKNIEEWNRGNWGSGCVRRTPLQCERLTTGGEEGKKDAFLELKMMKVPDLVDWSSAF-EDKCRDQCLENCSCIAYAYDAGTGCMSWTRDLIDLQEFSIGGVDLYVRVANSELDRK---EVDVKVVITITTIVGTLFLAICTFSLWRCMAKRKARKRKTREILSLNIEQAYAKFPGQSKLEDSMNQVRLQELPIFSFEELASATNSFHQTNKLGQGGFGPVYKGKLLHGQEIAVKRLSRSSGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KKVQLTSW +  DPSIG FSV +++ N+PE+   ++WN    YWRSGPWN  +F+G   M S  L GF +  +  GTFY ++ F+         VLN QG + V  Y NK +   + W    ++CD+YG CGAFG CNS++SPICNCL GFEP+N+ EWN+ NW SGCVRRTPL+CE+     E GK+D FL+L+  KVPD ++ SS F ED+CR QCL+NCSCIAYAYD    CM W+ +L D+  FS G ++LY+RVANSEL      + D++V++T+  +VG + +  C   L RC                       AK  G  K   +   V L +LP+   EELA+ATN+FH  N LG+GGFGPVYKG L   QEIAVKRLS +SGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>7.35842e-14</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>834</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>FGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS--------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>FGVLLLEIVSGRRNTSFYH--DEQAMSLLEFV---WKMWNANKIAALVDPMISEP-CFEMEVLRCIHVGLLCVQDFAKDRPTVSIAISMLKSEIVDLPRPKQPAFTATQIATDTASQCNKSGCSINNVTVTMVQGR</Hsp_hseq>
+      <Hsp_midline>FG +   ++ G +  +     +     L EF+   W+ WN  +I  L+DP +S   C   +++RCIH+GLLCVQ+ A+ RP++S  + ML SEI +LP PK+  F   Q     +S         N+VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_058736909.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 isoform X1 [Vicia villosa]</Hit_def>
+  <Hit_accession>XP_058736909</Hit_accession>
+  <Hit_len>823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>3.81064e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>397</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLN--PQGTLEVTMYQNKKE--IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLE-CEKGKNDSESG--KEDEFLKLQKTKVPDFLEQSS-TFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL--RRCAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TSNKITGEKVKFTSWKSPFDPAIGSFSISIERLSTPEVFIWN---ETRAYWRSGPWNGRVFTGLPYMKAHYLGGTHVGDDGEGNFSF---FKTSTNTVALVIYNLTTEGNVEEKSWDEEKKEWKITWNSHETDCDVYGVCGHFASCNSENLPICSCLKGFEPRNKEEWNKQNWIDGCVRRTPLQLCERDRNQNASADNKADGFLKLQMVKVPDFADGSSLTVSSDTCRSRCLENCSCVSYSYDADIGCMSWTGNLTDIRQFSNGGLTLYIRVAQAELVTGKDR-RNMSVIIIITVIAGTVLVLGCAYIMWRRRSNHHARNRNDNAMGELSLVKLHELLLFNFGKLATATNNFHSSNKLGQGGFGPVYKGTLPDGQEMAVKRLSKASGQGQEEFMNEV</Hsp_hseq>
+      <Hsp_midline>++NKIT +KV+ TSWKS  DP+IG+FS+S+E  + PE+++WN   + + YWRSGPWNG +F G   M +  L G H+  +  G F     F        L++ N   +G +E   +  +K+   I+WN   +DCD+YG CG F SCNS+  PIC+CL+GFEPRN  EWNKQNW  GCVRRTPL+ CE+ +N + S   K D FLKLQ  KVPDF + SS T S D CRS+CL+NCSC++Y+YD  I CM W+GNLTDI  FS G + LYIRVA +EL    D  R++ VI+ + ++ G V+V  CA ++  RR   H+  +N    G    V+L +L L    +LATATNNFHS+N LG+GGFGPVYKG L   QE+AVKRLS ASGQG EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.7338e-12</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>721</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS----------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>VWIQWTEDNILSVIDPGI-YDHIHYKSISRSIHIGLLCVQEFSIDRPTMAVVISMLNSEIVNLPPPKKPAFVLRQNMLSTVSSEECNDGLYTINLVSISDIHGR</Hsp_hseq>
+      <Hsp_midline> W  W E  I+++IDP + Y       I R IHIGLLCVQE +  RP+M+ V+ ML SEI NLPPPK+  F+ +Q +    SS          N V+ ++I GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_050287977.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Quercus robur]</Hit_def>
+  <Hit_accession>XP_050287977</Hit_accession>
+  <Hit_len>840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>7.23819e-122</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGGKNHG------NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANVRTGKKVQITSWKSPSDPSIGIFSVSIQPLGLPQAFIWN---DGSPYWRSGPWNSRNFIGIPDMNSVYLYGFSFVDEQDGNFYLTFDFADKTIP--SIIALNSQGNLVQKDWNNGSEDIGWSALQTECDVYGKCGAFGTCNPKNSPICSCFQGFEPNNTEEWNQGNWTSGCVRRTPLQCERVNTSGVEEGKKDGFLKLNMMKVPDIAVWSSAF-ENNCREQCLESCSCIAYAYDTSIGCMSWTSKLIDTQQFSSSGVDLYIRVAYSELG----KEGDVKKIVTITVITGTIFLSICSYLLWRWMVKQKARKKKATEILLFNREEVKVQEQPLFNLEELASATNNFHLSNKLGEGGFGPVYRGKLSDGQEIAVKRLSKASGQGSQEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KKVQ+TSWKS SDPSIG FSVS++   +P+ ++WN      PYWRSGPWN   F+G   M S  L GF    E +G FYLT+ FA K  P   +I LN QG L    + N  E I W+   ++CD+YG CGAFG+CN + SPIC+C +GFEP N  EWN+ NWTSGCVRRTPL+CE+   +  E GK+D FLKL   KVPD    SS F E+ CR QCL++CSCIAYAYD  I CM W+  L D   FS   ++LYIRVA SELG     + D++ IVT+ ++ G + ++ C+ LL R   K    K         N++ V++ + PL  LEELA+ATNNFH +N LGEGGFGPVY+G L   QEIAVKRLS ASGQG +EFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.86792e-14</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>739</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQK---------QQVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNAKNMIALIDP-MIYEPYFEIEMLRCIHVGLLCVQEFAKDRPIISVVISMLKSEIVDLPRPKMPAFTERQIALDTDSSQSCQKKNSVNDVTITRLQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   ++ LIDP M Y      +++RCIH+GLLCVQE A+ RP +S V+ ML SEI +LP PK   F ++         Q  + ++S N VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_047155548.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 [Vigna umbellata]</Hit_def>
+  <Hit_accession>XP_047155548</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>1.59702e-121</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEKGKN-DSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSEL-----GDHTDSDRDLRVIVTV-PLLVGIVIVTACACLLRR-------CAKHSGGKNH---GNQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANKVTGEKIQFVSRKSASDPSTGYFSASLERLDAPEVFLW--INGTRPYWRTGPWNGRIFIGTPLMSTGYLYGWSVGYEGNDIVYLTYSFADPSSF-GILTLSPEGKIKLVRYYNNKKGLTLDLGISDCDVYGTCGAFGSCNGQSSPICSCLSGFEARNQEEWRKKNWTSGCVRKVPLQCQRLNNGGSEAAQEDRFLKLETMKVPDFAERLDV-EEGQCGTQCLKNCSCLAYAYDAGIGCMYWTRDLIDLQKFQTAGIDLYIRLANSEFQSSNAQEHTNKRIAKELIIGITAATAGPIIVAICVYIVIRRHHSRKGTAKDSGSEKHLVTAVQKPAKLDELPLFEFEVVENATNSFHLANTLGKGGFGPVYKGLLPDGQEIAVKRLSRASGQGVEEFMNEV</Hsp_hseq>
+      <Hsp_midline>S NK+T +K+Q  S KS SDPS G FS SLE  + PE+++W   N  +PYWR+GPWNG +F+G   M +G L G+ +  E N   YLTY FA    + G++ L+P+G +++  Y N K+ ++ ++  SDCD+YG CGAFGSCN Q+SPIC+CL GFE RN  EW K+NWTSGCVR+ PL+C++  N  SE+ +ED FLKL+  KVPDF E+     E +C +QCL+NCSC+AYAYD  I CM+W+ +L D+  F    I+LYIR+ANSE       +HT+      +I+ +     G +IV  C  ++ R        AK SG + H     QK  +LD+LPL + E +  ATN+FH AN LG+GGFGPVYKG+L   QEIAVKRLS ASGQG+EEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.02727e-19</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>729</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGR---------SSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWNLWNEDNIRLLVDPEISASGSE-NHILRCIHIAFLCVQEVAKTRPTMTTVLSMLNSEISHLPPPRQVAFVQKQSSSSLESSSQENNCNSNNHVTLTDIQGR</Hsp_hseq>
+      <Hsp_midline>AW  WNE  I  L+DPE+S S  + + I+RCIHI  LCVQE+A+ RP+M+TVL ML SEI +LPPP++V F+QKQ              +S+N VT T+IQGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_030968667.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11300 [Quercus lobata]</Hit_def>
+  <Hit_accession>XP_030968667</Hit_accession>
+  <Hit_len>840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>1.64663e-121</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>SNNKITEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFA-KGYPYYGLIVLNPQGTLEVTMYQNKKEIISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGGKNHG------NQKHVELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>SANVRTGKKVQITSWKSPSDPSIGIFSVSIQPLGLPQAFIWN---DGSPYWRSGPWNSRNFIGIPDMNSVYLYGFSFVDEQDGNFYLTFDFADKTIP--SIIALNSQGNLVQKDWNNGSEDIGWSALQTECDVYGKCGAFGTCNPKNSPICSCFQGFEPNNTEEWNQGNWTSGCVRRTPLQCETVNTSGVEEGKKDGFLKLNMMKVPDIAVWSSAF-ENNCREQCLESCSCIAYAYDTSIGCMSWTSKLIDTQQFSSSGVDLYIRVAYSELG----KEGDVKKIVTITVITGTIFLSICSYLLWRWMVKQKARKKKATEILLFNREEVKVQEQPLFNLEELASATNNFHLSNKLGEGGFGPVYRGKLSDGQEIAVKRLSKASGQGSQEFMNEV</Hsp_hseq>
+      <Hsp_midline>S N  T KKVQ+TSWKS SDPSIG FSVS++   +P+ ++WN      PYWRSGPWN   F+G   M S  L GF    E +G FYLT+ FA K  P   +I LN QG L    + N  E I W+   ++CD+YG CGAFG+CN + SPIC+C +GFEP N  EWN+ NWTSGCVRRTPL+CE    +  E GK+D FLKL   KVPD    SS F E+ CR QCL++CSCIAYAYD  I CM W+  L D   FS   ++LYIRVA SELG     + D++ IVT+ ++ G + ++ C+ LL R   K    K         N++ V++ + PL  LEELA+ATNNFH +N LGEGGFGPVY+G L   QEIAVKRLS ASGQG +EFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.44375e-14</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>739</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQQVRGRSSS---------NSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>AWKLWNAKNMIALIDP-MIYEPYFDIEILRCIHVGLLCVQEFAKDRPIISVVISMLKSEIVDLPRPKKPAFTERQIALDTDSSQSCQKKISVNDVTVTMLQGR</Hsp_hseq>
+      <Hsp_midline>AW+ WN   ++ LIDP M Y      +I+RCIH+GLLCVQE A+ RP +S V+ ML SEI +LP PK+  F ++Q      SS         N VT T +QGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_042944345.1|</Hit_id>
+  <Hit_def>G-type lectin S-receptor-like serine/threonine-protein kinase At1g11330 isoform X1 [Carya illinoinensis]</Hit_def>
+  <Hit_accession>XP_042944345</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>1.69207e-121</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>TEKKVQLTSWKSHSDPSIGNFSVSLELPNIPEIYVWNVWNQEQPYWRSGPWNGSLFLGEEGMVSGNLSGFHIESENNGTFYLTYLFAKGYPYYGLIVLNPQGTLEVTMYQNKKE-IISWNVQNSDCDIYGFCGAFGSCNSQASPICNCLRGFEPRNVNEWNKQNWTSGCVRRTPLECEK-GKNDSESGKEDEFLKLQKTKVPDFLEQSSTFSEDRCRSQCLQNCSCIAYAYDPFISCMHWSGNLTDIVSFSKGEINLYIRVANSELGDHTDSDRDLRVIVTVPLLVGIVIVTACACLL-RRCAKHSGG---KNHGNQKHV-------ELDDLPLLKLEELATATNNFHSANMLGEGGFGPVYKGVLEGEQEIAVKRLSNASGQGLEEFMNEA</Hsp_qseq>
+      <Hsp_hseq>TGKNVRLTSWKRHSDPSVGAFFAASYLSNLPEMFIWN---DSKPYWRSGPWNSQIFIGTPPMYSVYLNGFSLVDDKEGTFYFTYDISNKSMLLHY-TLSSEGNLEEIRSINGKDWVVTWSSLVSECDIYGKCGAFGSCNSQNSPICSCLEGFEPKNMEEWNGRNWSSGCVRRTPLQCTRVNSTGGEEGQKDGFLRVKMMKTPDFANWSSTV-EDECRYQCLENCSCIAYAYESGIGCMSWSSDLIDLQKFSTGGVDLYVRVAYSEL----DKKGELKVIITVTVVIGSVFVAICTFFLCQWMAKRKGGIYLKLHGEGNHLAVSMNKDKLEELPILSREELASATNNFDQSNKLGQGGFGPVYRGKLPDGQEVAVKRLARTSGQGLEEFMNEV</Hsp_hseq>
+      <Hsp_midline>T K V+LTSWK HSDPS+G F  +  L N+PE+++WN     +PYWRSGPWN  +F+G   M S  L+GF +  +  GTFY TY  +          L+ +G LE     N K+ +++W+   S+CDIYG CGAFGSCNSQ SPIC+CL GFEP+N+ EWN +NW+SGCVRRTPL+C +      E G++D FL+++  K PDF   SST  ED CR QCL+NCSCIAYAY+  I CM WS +L D+  FS G ++LY+RVA SEL    D   +L+VI+TV +++G V V  C   L +  AK  GG   K HG   H+       +L++LP+L  EELA+ATNNF  +N LG+GGFGPVY+G L   QE+AVKRL+  SGQGLEEFMNE </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.7876e-12</Hsp_evalue>
+      <Hsp_query-from>360</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>713</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>GVLEGEQEIAVKRLSNASGQGLEEFMNEAWRFWNEGRIMTLIDPEMSYSMCDRDQIMRCIHIGLLCVQELARKRPSMSTVLGMLYSEIENLPPPKEVGFLQKQ---------QVRGRSSSNSVTFTEIQGR</Hsp_qseq>
+      <Hsp_hseq>GVLLLEIVSGRRNASFYYDEQIASLLGFAWKMWETDNIAVLIDPVIS-EPCFKMEILRCIHVGLLCVQDFAKDRPSVHVAISMLKSEIIELPRPKQPVFTTIQVAPETECSNRIRIAGSVDNVTITTVYGR</Hsp_hseq>
+      <Hsp_midline>GVL  E     +  S    + +   +  AW+ W    I  LIDP +S   C + +I+RCIH+GLLCVQ+ A+ RPS+   + ML SEI  LP PK+  F   Q         ++R   S ++VT T + GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>430704558</Statistics_db-num>
+      <Statistics_db-len>165736709556</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

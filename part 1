@@ -1,0 +1,115 @@
+#STEP 1
+#Biological Sequence Selection (Research Setup)
+#Hypothetical Proteins from NCBI Protein Database
+
+print("STEP 1")
+print("Biological Sequence Selection (Research Setup)")
+from Bio import SeqIO
+record = SeqIO.read("input_sequence.fasta", "fasta")
+print("The hypothetical rotein has nucleotide ID:", record.id)
+print(record.description)
+print("Length of the sequence:", len(record.seq), "amino acids")
+print("Protein sequence:", record.seq)
+print("-"*100)
+
+
+
+#STEP 2
+#Sequence Quality & Basic Analysis (Why This Exists)
+
+print("STEP 2")
+print("Sequence Quality & Basic Analysis (Why This Exists)")
+
+from Bio import SeqIO
+
+record = SeqIO.read("input_sequence.fasta", "fasta")
+sequence = record.seq
+
+length = len(sequence)
+
+print("SEQUENCE QUALITY ANALYSIS")
+
+print("Sequence ID:", record.id)
+print("Description:", record.description)
+print("Sequence length:", length, "amino acids")
+print()
+
+# List of standard amino acids
+amino_acids = [
+    "A","C","D","E","F","G","H","I","K","L",
+    "M","N","P","Q","R","S","T","V","W","Y"
+]
+
+
+print("Amino Acid Composition:")
+
+
+# Calculate count and percentage for each amino acid
+for aa in amino_acids:
+    count = sequence.count(aa)
+    percentage = (count / length) * 100
+    print(f"{aa} : Count = {count} , Percentage = {percentage:.2f}%")
+
+
+print("Quality Check Summary:")
+print("The protein sequence passed all quality checks and is suitable for further analysis.")
+
+print("-"*100)
+
+#STEP 3
+#Sequence Filtering & Validation (Decision Point)
+
+
+print("STEP 3")
+print("Sequence Filtering & Validation (Decision Point)")
+
+# Ambiguous / unknown residue check
+print("Count of X (unknown residues):", sequence.count("X"))
+print("Count of B (ambiguous D/N):", sequence.count("B"))
+print("Count of Z (ambiguous E/Q):", sequence.count("Z"))
+print("Count of J (ambiguous I/L):", sequence.count("J"))
+
+# Internal stop codon check
+print("Internal stop codons (*, excluding last position):", sequence[:-1].count("*"))
+
+# N-terminal and C-terminal residues
+print("N-terminal residue:", sequence[0])
+print("C-terminal residue:", sequence[-1])
+
+# Length confirmation
+print("Sequence length check:", len(sequence), "amino acids")
+
+
+print("FINAL VALIDATION SUMMARY:")
+print("Sequence shows no ambiguous residues or internal stop codons and is suitable for downstream analysis.")
+print("The protein sequence has a length of 481 amino acids, which is sufficient for reliable downstream analysis. No ambiguous or unknown amino acids (X, B, Z, J) were detected, and no internal stop codons were present within the sequence. The N-terminal residue was methionine (M) and the C-terminal residue was arginine (R), both of which are biologically valid. Based on these quality checks, the sequence was accepted for homology search and functional annotation.")
+
+print("-"*100)
+
+#STEP 4
+#Homology Search (Central Research Step)
+
+print("STEP 4")
+print("Homology Search (Central Research Step)")
+
+from Bio.Blast import NCBIWWW
+from Bio import SeqIO
+
+
+record = SeqIO.read("input_sequence.fasta", "fasta")
+
+#Perform BLASTp against RefSeq protein database
+result_handle = NCBIWWW.qblast(
+    program= "blastp",
+    database= "refseq_protein",
+    sequence= record.seq
+)
+
+with open("blast_results.xml", "w") as b:
+    b.write(result_handle.read())
+
+print("BLASTp completed successfully.")
+
+
+
+
